@@ -1,0 +1,4 @@
+author = Lolkat & DragonHunter003
+version = 13.0
+displayName = Infinity - Endless Items
+homepage = http://forums.terraria.org/index.php?threads/infinity.40789/

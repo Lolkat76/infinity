@@ -1,0 +1,108 @@
+Adds in endless items.
+These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
+Currently has endless versions of these items:
+(13.0)
+Thanks to DragonHunter003, a massive update can be released!
+Below are his contributions, thanks a bunch!
+-Fixed shift with torches
+-All glowsticks
+-The rest of the buff potions
+-Bones
+-Candy Corn
+-Flares
+-Fallen Star
+-Gel
+-Jack O Lantern
+-Nail
+-Stynger Bolt
+-Stake
+-Waters
+-Anise
+-Fish Stuff
+(12.0)
+Added the first wave of endless potions, from Obsidian Skin to Gravitation!
+Updated the sprites for Endless Molotov and Endless Darts.
+(11.2)
+Added some amazing sprites by Dr. Frankenstein of the forums!
+(11.1)
+Added evershining coins
+Added endless beenades
+(11.0)
+Updated to latest tModloader
+(10.1)
+Updated to latest tModloader
+(10.0)
+Added infinite versions of all four dart types.
+Added the endless molotov cocktail.
+Currently looking into shift-torches, hang tight!
+(9.0)
+Added some new sprites made by user lucasdefron. Thanks!
+Added endless versions of every torch in the game, requested by Maso.
+Special thanks to jopojelly for informing me about the placestyle thing.
+(8.0)
+Adds in the rest of the solutions.
+Red
+Blue
+Dark Blue
+Purple
+Also adds in the long-awaited infinite ichor bullets.
+(7.2)
+Small update.
+Adds in Infinite Green Solution.
+(7.1)
+Fixed items acting like swords and dealing damage like swords (Thanks ColinAV516!)
+Made bone infinites auto-swing
+(7.0)
+Added infinite rockets.
+I, II, III, IV
+(6.2)
+Updated to tModLoader v8.1.2
+(6.1)
+Fixed a bug with the Endless Javelin
+(6.0)
+Added new endless throwing weapons for these weapons:
+Javelin
+Bone Javelin
+Bone Throwing Knife
+(5.2)
+Reverted certain arrows/bullets to Workshop crafting based on community feedback.
+-Arrow types Jester, Hellfire, Flaming, Bone, Unholy
+-Bullet types Silver, Meteor
+(5.1)
+Graphical + Bug Fixes
+-Explosives and Bullets now have sprites consistant with the style.
+-Also easier to distinguish from normal counterparts.
+-Most infinite items are made at the crystal ball, minus grenades, knives, and shurikens.
+-Grenades and knives are made at the Tinkerer's Workshop.
+-Shurikens are made at the workbench.
+(5.0)
+Grenade (Normal, Bouncy, Sticky)
+Bomb (Normal, Bouncy, Sticky)
+Dynamite (Normal, Bouncy, Sticky)
+(4.0)
+These Bullets:
+Cursed
+Crystal
+Silver
+Meteor
+Chlorophyte
+(3.0)
+Every PC Arrow
+(There's alot of them and I'm lazy)
+(2.0)
+Party Bullet
+High Velocity Bullet
+Venom Bullet
+Golden Bullet
+Nano Bullet
+Exploding Bullet
+Luminite Bullet
+(1.1)
+*Updated for 0.7.1
+Spiky Ball
+(1.0)
+Shuriken
+Throwing Knife
+Poisoned Throwing Knife
+Snow Ball
+Rotten Egg
