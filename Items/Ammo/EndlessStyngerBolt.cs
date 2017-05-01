@@ -27,7 +27,7 @@ namespace Infinity.Items.Ammo
 			recipe.AddIngredient(ItemID.StyngerBolt, 3996);
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
-			recipe.AddRecipe();
+			recipe.AddRecipe();         
 		}
 	}
 }

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8298EAB6-0586-4BDA-9483-83624B66B13A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InfinityExpansion</RootNamespace>
+    <AssemblyName>InfinityExpansion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Infinity.cs" />
+    <Compile Include="Items\Ammo\EndlessBlueFlare.cs" />
+    <Compile Include="Items\BuffPotions\EndlessArcheryPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessBattlePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessCratePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskIchor.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskCursedFlames.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskNanites.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskPoison.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskVenom.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskGold.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskParty.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlaskFire.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFeatherfallPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFishingPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessGillsPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessGravitationPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessHunterPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessInvisibilityPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessIronskinPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessMagicPowerPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessManaRegenPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessNightOwlPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessObsidianSkinPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessRegenPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessShinePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessSonarPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessSpelunkerPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessSwiftnessPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessThornsPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessWaterWalkingPotion.cs" />
+    <Compile Include="Items\Ammo\EndlessCopperCoin.cs" />
+    <Compile Include="Items\Throwables\EndlessBeenade.cs" />
+    <Compile Include="Items\Throwables\EndlessBomb.cs" />
+    <Compile Include="Items\Throwables\EndlessBombBouncy.cs" />
+    <Compile Include="Items\Throwables\EndlessBombSticky.cs" />
+    <Compile Include="Items\Throwables\EndlessBoneJavelin.cs" />
+    <Compile Include="Items\Throwables\EndlessBoneKnife.cs" />
+    <Compile Include="Items\Throwables\EndlessDyna.cs" />
+    <Compile Include="Items\Throwables\EndlessDynaB.cs" />
+    <Compile Include="Items\Throwables\EndlessDynaS.cs" />
+    <Compile Include="Items\Throwables\EndlessRottenEgg.cs" />
+    <Compile Include="Items\Throwables\EndlessGrenade.cs" />
+    <Compile Include="Items\Throwables\EndlessGrenadeB.cs" />
+    <Compile Include="Items\Throwables\EndlessGrenadeS.cs" />
+    <Compile Include="Items\Throwables\EndlessJavelin.cs" />
+    <Compile Include="Items\Throwables\EndlessKnife.cs" />
+    <Compile Include="Items\Throwables\EndlessKnifeP.cs" />
+    <Compile Include="Items\Throwables\EndlessMolotovCocktail.cs" />
+    <Compile Include="Items\Throwables\EndlessShuriken.cs" />
+    <Compile Include="Items\Throwables\EndlessSnowball.cs" />
+    <Compile Include="Items\Throwables\EndlessSpiky.cs" />
+    <Compile Include="Items\EndlessGoldCoin.cs" />
+    <Compile Include="Items\InfiniteBoneArrow.cs" />
+    <Compile Include="Items\InfiniteBlueSolution.cs" />
+    <Compile Include="Items\InfiniteChloroBullet.cs" />
+    <Compile Include="Items\InfiniteChlorophyte.cs" />
+    <Compile Include="Items\InfiniteCrystalBullet.cs" />
+    <Compile Include="Items\InfiniteCrystalDart.cs" />
+    <Compile Include="Items\InfiniteCursed.cs" />
+    <Compile Include="Items\InfiniteCursedBullet.cs" />
+    <Compile Include="Items\InfiniteCursedDart.cs" />
+    <Compile Include="Items\InfiniteDarkBlueSolution.cs" />
+    <Compile Include="Items\InfiniteExplodingBullet.cs" />
+    <Compile Include="Items\InfiniteFlaming.cs" />
+    <Compile Include="Items\InfiniteFrostburn.cs" />
+    <Compile Include="Items\InfiniteGoldenBullet.cs" />
+    <Compile Include="Items\InfiniteGSol.cs" />
+    <Compile Include="Items\InfiniteHellfire.cs" />
+    <Compile Include="Items\InfiniteHighVelocityBullet.cs" />
+    <Compile Include="Items\InfiniteHoly.cs" />
+    <Compile Include="Items\InfiniteIchor.cs" />
+    <Compile Include="Items\InfiniteIchorBullet.cs" />
+    <Compile Include="Items\InfiniteIchorDart.cs" />
+    <Compile Include="Items\InfiniteJester.cs" />
+    <Compile Include="Items\InfiniteLuminite.cs" />
+    <Compile Include="Items\InfiniteLuminiteBullet.cs" />
+    <Compile Include="Items\InfiniteMeteorBullet.cs" />
+    <Compile Include="Items\InfiniteNanoBullet.cs" />
+    <Compile Include="Items\InfinitePartyBullet.cs" />
+    <Compile Include="Items\InfinitePoisonDart.cs" />
+    <Compile Include="Items\Placeables\EndlessDemonTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessPinkTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessRainbowTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessBoneTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessUltrabrightTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessIchorTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessOrangeTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessIceTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessCursedTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessYellowTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessWhiteTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessPurpleTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessGreenTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessRedTorch.cs" />
+    <Compile Include="Items\Placeables\EndlessBlueTorch.cs" />
+    <Compile Include="Items\Throwables\EndlessBloodWater.cs" />
+    <Compile Include="Items\Throwables\EndlessUnholyWater.cs" />
+    <Compile Include="Items\Throwables\EndlessHolyWater.cs" />
+    <Compile Include="Items\Throwables\EndlessBone.cs" />
+    <Compile Include="Items\Throwables\EndlessBouncyGlowstick.cs" />
+    <Compile Include="Items\Ammo\EndlessCandyCorn.cs" />
+    <Compile Include="Items\BuffPotions\EndlessWarmthPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessCalmingPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessDangersensePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessEndurancePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessFlipperPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessHeartreachPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessInfernoPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessLifeforcePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessRagePotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessSummoningPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessTitanPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessWrathPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessBuilderPotion.cs" />
+    <Compile Include="Items\BuffPotions\EndlessAmmoReservationPotion.cs" />
+    <Compile Include="Items\Placeables\EndlessTorch.cs" />
+    <Compile Include="Items\BuffPotions\EndlessMiningPotion.cs" />
+    <Compile Include="Items\Ammo\EndlessFallenStar.cs" />
+    <Compile Include="Items\Ammo\EndlessFlare.cs" />
+    <Compile Include="Items\Throwables\EndlessBombFish.cs" />
+    <Compile Include="Items\Throwables\EndlessStarAnise.cs" />
+    <Compile Include="Items\Throwables\EndlessFrostDaggerfish.cs" />
+    <Compile Include="Items\Ammo\EndlessGel.cs" />
+    <Compile Include="Items\Throwables\EndlessGlowstick.cs" />
+    <Compile Include="Items\Ammo\EndlessJackOLantern.cs" />
+    <Compile Include="Items\Ammo\EndlessNail.cs" />
+    <Compile Include="Items\Throwables\EndlessSpelunkerGlowstick.cs" />
+    <Compile Include="Items\Ammo\EndlessStake.cs" />
+    <Compile Include="Items\Throwables\EndlessStickyGlowstick.cs" />
+    <Compile Include="Items\Ammo\EndlessStyngerBolt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Game\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Xact\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+    </Reference>
+    <Reference Include="tModLoader">
+      <HintPath>I:\Games\Steam\steamapps\common\terraria\tModLoader.exe</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
