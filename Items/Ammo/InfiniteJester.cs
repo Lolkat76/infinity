@@ -4,33 +4,33 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteChlorophyte : ModItem
+	public class InfiniteJester : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Chlorophyte Quiver";
-			item.damage = 16;
+			item.name = "Endless Jester Quiver";
+			item.damage = 10;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Still bounces back after hitting a wall, but you don't run out.";
+			item.toolTip = "It's like one of those glitter prank tubes.";
 			item.consumable = false;
-			item.knockBack = 3.5f;
+			item.knockBack = 4f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 225;
-			item.shootSpeed = 4.5f;
+			item.shoot = 5;
+			item.shootSpeed = 0.5f;
 			item.ammo = 40;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(1235, 3996);
-			recipe.AddTile(125);
+			recipe.AddIngredient(51, 3996);
+			recipe.AddTile(114);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

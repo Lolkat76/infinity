@@ -4,32 +4,32 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteCursedDart : ModItem
+	public class InfiniteCrystalDart : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Infinite Cursed Dart";
-			item.damage = 9;
+			item.name = "Infinite Crystal Dart";
+			item.damage = 15;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Click click click.";
+			item.toolTip = "Bingo bango bongo!";
 			item.consumable = false;
-			item.knockBack = 2.2f;
+			item.knockBack = 3.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 478;
-			item.shootSpeed = 3f;
+			item.shoot = 477;
+			item.shootSpeed = 1f;
 			item.ammo = AmmoID.Dart;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.CursedDart, 3996);
+			recipe.AddIngredient(ItemID.CrystalDart, 3996);
 			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();

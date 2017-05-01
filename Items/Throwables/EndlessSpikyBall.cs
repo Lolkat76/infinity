@@ -4,9 +4,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Throwables
 {
-	public class EndlessSpiky : ModItem
+	public class EndlessSpikyBall : ModItem
 	{
 		public override void SetDefaults()
 		{

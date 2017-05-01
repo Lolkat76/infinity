@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Throwables
 {
 	public class EndlessBombSticky : ModItem
 	{

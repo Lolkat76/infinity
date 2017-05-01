@@ -4,32 +4,32 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteIchorBullet : ModItem
+	public class InfiniteHoly : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Ichor Pouch";
+			item.name = "Endless Holy Quiver";
 			item.damage = 13;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "After nine years in development, hopefully, they will have been worth the wait.";
+			item.toolTip = "Summons falling stars on impact. Except you don't run out.";
 			item.consumable = false;
-			item.knockBack = 4f;
+			item.knockBack = 3.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 279;
-			item.shootSpeed = 5.25f;
-			item.ammo = AmmoID.Bullet;
+			item.shoot = 91;
+			item.shootSpeed = 3.5f;
+			item.ammo = 40;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(1335, 3996);
+			recipe.AddIngredient(516, 3996);
 			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();

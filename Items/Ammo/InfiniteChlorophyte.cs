@@ -4,32 +4,32 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteCrystalBullet : ModItem
+	public class InfiniteChlorophyte : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Crystal Pouch";
-			item.damage = 9;
+			item.name = "Endless Chlorophyte Quiver";
+			item.damage = 16;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Creates several crystal shards on impact.";
+			item.toolTip = "Still bounces back after hitting a wall, but you don't run out.";
 			item.consumable = false;
-			item.knockBack = 1f;
+			item.knockBack = 3.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 89;
-			item.shootSpeed = 5f;
-			item.ammo = AmmoID.Bullet;
+			item.shoot = 225;
+			item.shootSpeed = 4.5f;
+			item.ammo = 40;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(515, 3996);
+			recipe.AddIngredient(1235, 3996);
 			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();

@@ -4,33 +4,33 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteBone : ModItem
+	public class InfiniteLuminiteBullet : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Bone Quiver";
-			item.damage = 6;
+			item.name = "Endless Luminite Pouch";
+			item.damage = 22;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "If you're looking for an Undertale joke you came to the wrong place.";
+			item.toolTip = "Line 'em up and knock 'em down... infinitely.";
 			item.consumable = false;
-			item.knockBack = 0f;
+			item.knockBack = 3f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 117;
-			item.shootSpeed = 3.5f;
-			item.ammo = 40;
+			item.shoot = 638;
+			item.shootSpeed = 2f;
+			item.ammo = AmmoID.Bullet;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(3003, 3996);
-			recipe.AddTile(114);
+			recipe.AddIngredient(3567, 3996);
+			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

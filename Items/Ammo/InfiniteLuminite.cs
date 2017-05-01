@@ -4,32 +4,32 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
-	public class InfiniteExplodingBullet : ModItem
+	public class InfiniteLuminite : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Infinite Exploding Bullet";
-			item.damage = 10;
+			item.name = "Endless Luminite Quiver";
+			item.damage = 15;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hold on.";
+			item.toolTip = "Turns enemies into a + bi form.";
 			item.consumable = false;
-			item.knockBack = 6.6f;
+			item.knockBack = 3.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 286;
-			item.shootSpeed = 4.7f;
-			item.ammo = AmmoID.Bullet;
+			item.shoot = 639;
+			item.shootSpeed = 3f;
+			item.ammo = 40;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.ExplodingBullet, 3996);
+			recipe.AddIngredient(3568, 3996);
 			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
