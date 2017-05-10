@@ -21,16 +21,16 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 0f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 117;
+			item.shoot = ProjectileID.BoneArrow;
 			item.shootSpeed = 3.5f;
-			item.ammo = 40;
+			item.ammo = AmmoID.Arrow;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(3003, 3996);
-			recipe.AddTile(114);
+			recipe.AddIngredient(ItemID.BoneArrow, 3996);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

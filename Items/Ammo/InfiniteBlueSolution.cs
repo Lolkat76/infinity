@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteBSol : ModItem
+	public class InfiniteBlueSolution : ModItem
 	{
 		public override void SetDefaults()
 		{
@@ -20,7 +20,7 @@ namespace Infinity.Items.Ammo
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.BlueSolution, 999);
-			recipe.AddTile(125);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

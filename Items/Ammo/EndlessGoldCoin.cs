@@ -29,8 +29,8 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(73, 999);
-			recipe.AddTile(114);
+			recipe.AddIngredient(ItemID.GoldCoin, 999);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

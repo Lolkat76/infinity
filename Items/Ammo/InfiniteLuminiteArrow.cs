@@ -6,31 +6,31 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteHellfire : ModItem
+	public class InfiniteLuminiteArrow : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Hellfire Quiver";
-			item.damage = 13;
+			item.name = "Endless Luminite Quiver";
+			item.damage = 15;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hot stuff.";
+			item.toolTip = "Turns enemies into a + bi form.";
 			item.consumable = false;
-			item.knockBack = 8f;
+			item.knockBack = 3.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 41;
-			item.shootSpeed = 6.5f;
+			item.shoot = 639;
+			item.shootSpeed = 3f;
 			item.ammo = 40;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(265, 3996);
-			recipe.AddTile(114);
+			recipe.AddIngredient(3568, 3996);
+			recipe.AddTile(125);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}
