@@ -6,26 +6,28 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Throwables
 {
-	public class EndlessGrenadeB : ModItem
+	public class EndlessKnifePoisoned : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Endless Bouncy Grenade";
-			item.damage = 65;
+			item.name = "Endless Poisoned Knife";
+			item.damage = 14;
 			item.thrown = true;
+			item.autoReuse = true;
 			item.width = 22;
 			item.height = 22;
-			item.useTime = 39;
-			item.useAnimation = 39;
+			item.useTime = 14;
+			item.useAnimation = 14;
 			item.useStyle = 1;
-			item.maxStack = 1;
-			item.toolTip = "A small explosion that will not destroy tiles.";
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
+			item.toolTip = "A special knife that is never consumed.";
 			item.consumable = false;
-			item.knockBack = 8f;
+			item.knockBack = 2.4f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 517;
-			item.shootSpeed = 6.5f;
+			item.shoot = ProjectileID.PoisonedKnife;
+			item.shootSpeed = 12f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
 		}
@@ -33,8 +35,8 @@ namespace Infinity.Items.Throwables
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.BouncyGrenade, 199);
-			recipe.AddTile(114);
+			recipe.AddIngredient(ItemID.PoisonedKnife, 999);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

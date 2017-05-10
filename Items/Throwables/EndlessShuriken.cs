@@ -18,13 +18,14 @@ namespace Infinity.Items.Throwables
 			item.useTime = 14;
 			item.useAnimation = 14;
 			item.useStyle = 1;
-			item.maxStack = 1;
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.toolTip = "A special shuriken that is never consumed.";
 			item.consumable = false;
 			item.knockBack = 0f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 3;
+			item.shoot = ProjectileID.Shuriken;
 			item.shootSpeed = 9f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
@@ -34,7 +35,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Shuriken, 999);
-			recipe.AddTile(18);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

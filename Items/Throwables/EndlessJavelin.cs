@@ -18,12 +18,13 @@ namespace Infinity.Items.Throwables
 			item.useTime = 23;
 			item.useAnimation = 23;
 			item.useStyle = 1;
-			item.maxStack = 1;
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.consumable = false;
 			item.knockBack = 4.75f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 507;
+			item.shoot = ProjectileID.JavelinFriendly;
 			item.shootSpeed = 11.5f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
@@ -33,7 +34,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Javelin, 999);
-			recipe.AddTile(18);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

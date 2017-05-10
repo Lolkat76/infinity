@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Throwables
 {
-	public class EndlessDynaB : ModItem
+	public class EndlessDynamiteBouncy : ModItem
 	{
 		public override void SetDefaults()
 		{
@@ -18,13 +18,14 @@ namespace Infinity.Items.Throwables
 			item.useTime = 39;
 			item.useAnimation = 39;
 			item.useStyle = 1;
-			item.maxStack = 1;
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.toolTip = "This will prove to be a terrible idea.";
 			item.consumable = false;
 			item.knockBack = 8f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 637;
+			item.shoot = ProjectileID.BouncyDynamite;
 			item.shootSpeed = 4f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
