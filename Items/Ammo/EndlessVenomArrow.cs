@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Infinity.Items
+namespace Infinity.Items.Ammo
 {
 	public class EndlessVenomArrow : ModItem
 	{
