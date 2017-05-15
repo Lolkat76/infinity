@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfinitePoisonDart : ModItem
+	public class EndlessPoisonDart : ModItem
 	{
 		public override void SetDefaults()
 		{

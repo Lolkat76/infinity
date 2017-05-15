@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteCursedDart : ModItem
+	public class EndlessCursedDart : ModItem
 	{
 		public override void SetDefaults()
 		{

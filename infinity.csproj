@@ -34,15 +34,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Items\Ammo\EndlessPurpleSolution.cs" />
-    <Compile Include="Items\Ammo\InfiniteRocket.cs" />
-    <Compile Include="Items\Ammo\InfiniteRocket2.cs" />
-    <Compile Include="Items\Ammo\InfiniteRocket3.cs" />
-    <Compile Include="Items\Ammo\InfiniteRocket4.cs" />
-    <Compile Include="Items\Ammo\InfiniteRedSolultion.cs" />
-    <Compile Include="Items\Ammo\InfiniteSilverBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteUnholyArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteVenomArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteVenomBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessRocket.cs" />
+    <Compile Include="Items\Ammo\EndlessRocket2.cs" />
+    <Compile Include="Items\Ammo\EndlessRocket3.cs" />
+    <Compile Include="Items\Ammo\EndlessRocket4.cs" />
+    <Compile Include="Items\Ammo\EndlessRedSolultion.cs" />
+    <Compile Include="Items\Ammo\EndlessSilverBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessUnholyArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessVenomArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessVenomBullet.cs" />
     <Compile Include="Infinity.cs" />
     <Compile Include="Items\Ammo\EndlessBlueFlare.cs" />
     <Compile Include="Items\BuffPotions\EndlessArcheryPotion.cs" />
@@ -103,27 +103,27 @@
     <Compile Include="Items\Ammo\EndlessCrystalBullet.cs" />
     <Compile Include="Items\Ammo\EndlessCrystalDart.cs" />
     <Compile Include="Items\Ammo\EndlessCursedArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteCursedBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteCursedDart.cs" />
-    <Compile Include="Items\Ammo\InfiniteDarkBlueSolution.cs" />
-    <Compile Include="Items\Ammo\InfiniteExplodingBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteFlamingArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteFrostburnArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteGoldenBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteGreenSolution.cs" />
-    <Compile Include="Items\Ammo\InfiniteHellfireArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteHighVelocityBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteHolyArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteIchorArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteIchorBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteIchorDart.cs" />
-    <Compile Include="Items\Ammo\InfiniteJestersArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteLuminiteArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteLuminiteBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteMeteorBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteNanoBullet.cs" />
-    <Compile Include="Items\Ammo\InfinitePartyBullet.cs" />
-    <Compile Include="Items\Ammo\InfinitePoisonDart.cs" />
+    <Compile Include="Items\Ammo\EndlessCursedBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessCursedDart.cs" />
+    <Compile Include="Items\Ammo\EndlessDarkBlueSolution.cs" />
+    <Compile Include="Items\Ammo\EndlessExplodingBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessFlamingArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessFrostburnArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessGoldenBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessGreenSolution.cs" />
+    <Compile Include="Items\Ammo\EndlessHellfireArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessHighVelocityBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessHolyArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessIchorArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessIchorBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessIchorDart.cs" />
+    <Compile Include="Items\Ammo\EndlessJestersArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessLuminiteArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessLuminiteBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessMeteorBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessNanoBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessPartyBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessPoisonDart.cs" />
     <Compile Include="Items\Placeables\EndlessDemonTorch.cs" />
     <Compile Include="Items\Placeables\EndlessPinkTorch.cs" />
     <Compile Include="Items\Placeables\EndlessRainbowTorch.cs" />
@@ -176,6 +176,7 @@
     <Compile Include="Items\Ammo\EndlessStyngerBolt.cs" />
     <Compile Include="Items\Ammo\EndlessPlatinumCoin.cs" />
     <Compile Include="Items\Ammo\EndlessSilverCoin.cs" />
+    <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutSplinterShot.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">

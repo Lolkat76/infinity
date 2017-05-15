@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items
 {
-	public class InfiniteVenomBullet : ModItem
+	public class EndlessVenomBullet : ModItem
 	{
 		public override void SetDefaults()
 		{

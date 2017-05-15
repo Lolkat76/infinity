@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items
 {
-	public class InfiniteRocket3 : ModItem
+	public class EndlessRocket3 : ModItem
 	{
 		public override void SetDefaults()
 		{

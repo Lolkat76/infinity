@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteFrostburnArrow : ModItem
+	public class EndlessFrostburnArrow : ModItem
 	{
 		public override void SetDefaults()
 		{

@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteIchorDart : ModItem
+	public class EndlessIchorDart : ModItem
 	{
 		public override void SetDefaults()
 		{

@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteHellfireArrow : ModItem
+	public class EndlessHellfireArrow : ModItem
 	{
 		public override void SetDefaults()
 		{

@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteLuminiteBullet : ModItem
+	public class EndlessLuminiteBullet : ModItem
 	{
 		public override void SetDefaults()
 		{

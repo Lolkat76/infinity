@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items
 {
-	public class InfiniteRedSolution : ModItem
+	public class EndlessRedSolution : ModItem
 	{
 		public override void SetDefaults()
 		{

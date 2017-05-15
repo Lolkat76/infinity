@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items
 {
-	public class InfiniteSilverBullet : ModItem
+	public class EndlessSilverBullet : ModItem
 	{
 		public override void SetDefaults()
 		{

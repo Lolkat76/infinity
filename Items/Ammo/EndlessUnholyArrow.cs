@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items
 {
-	public class InfiniteUnholyArrow : ModItem
+	public class EndlessUnholyArrow : ModItem
 	{
 		public override void SetDefaults()
 		{

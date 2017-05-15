@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteDarkBlueSolution : ModItem
+	public class EndlessDarkBlueSolution : ModItem
 	{
 		public override void SetDefaults()
 		{
