@@ -21,7 +21,7 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 3f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 638;
+			item.shoot = ProjectileID.MoonlordBullet;
 			item.shootSpeed = 2f;
 			item.ammo = AmmoID.Bullet;
 		}
@@ -29,8 +29,8 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(3567, 3996);
-			recipe.AddTile(125);
+			recipe.AddIngredient(ItemID.MoonlordBullet, 3996);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

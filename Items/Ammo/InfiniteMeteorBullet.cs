@@ -21,7 +21,7 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 1f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 36;
+			item.shoot = ProjectileID.MeteorShot;
 			item.shootSpeed = 3f;
 			item.ammo = AmmoID.Bullet;
 		}
@@ -29,8 +29,8 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(234, 3996);
-			recipe.AddTile(114);
+			recipe.AddIngredient(ItemID.MeteorShot, 3996);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

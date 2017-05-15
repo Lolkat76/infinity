@@ -21,7 +21,7 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 2.5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 479;
+			item.shoot = ProjectileID.IchorDart;
 			item.shootSpeed = 3f;
 			item.ammo = AmmoID.Dart;
 		}
@@ -30,7 +30,7 @@ namespace Infinity.Items.Ammo
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.IchorDart, 3996);
-			recipe.AddTile(125);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

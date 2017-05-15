@@ -21,7 +21,7 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 5f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = 284;
+			item.shoot = ProjectileID.PartyBullet;
 			item.shootSpeed = 5.1f;
 			item.ammo = AmmoID.Bullet;
 		}
@@ -30,7 +30,7 @@ namespace Infinity.Items.Ammo
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.PartyBullet, 3996);
-			recipe.AddTile(125);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

@@ -6,30 +6,30 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class InfiniteNanoBullet : ModItem
+	public class EndlessCursedArrow : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Infinite Nano Bullet";
-			item.damage = 10;
+			item.name = "Endless Cursed Quiver";
+			item.damage = 17;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hold on.";
+			item.toolTip = "Maybe you'll learn Clingeron from it.";
 			item.consumable = false;
-			item.knockBack = 5f;
+			item.knockBack = 3f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = ProjectileID.NanoBullet;
-			item.shootSpeed = 5.1f;
-			item.ammo = AmmoID.Bullet;
+			item.shoot = ProjectileID.CursedArrow;
+			item.shootSpeed = 4f;
+			item.ammo = AmmoID.Arrow;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.NanoBullet, 3996);
+			recipe.AddIngredient(ItemID.CursedArrow, 3996);
 			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();

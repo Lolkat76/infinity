@@ -33,6 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Items\Ammo\EndlessPurpleSolution.cs" />
+    <Compile Include="Items\Ammo\InfiniteRocket.cs" />
+    <Compile Include="Items\Ammo\InfiniteRocket2.cs" />
+    <Compile Include="Items\Ammo\InfiniteRocket3.cs" />
+    <Compile Include="Items\Ammo\InfiniteRocket4.cs" />
+    <Compile Include="Items\Ammo\InfiniteRedSolultion.cs" />
+    <Compile Include="Items\Ammo\InfiniteSilverBullet.cs" />
+    <Compile Include="Items\Ammo\InfiniteUnholyArrow.cs" />
+    <Compile Include="Items\Ammo\InfiniteVenomArrow.cs" />
+    <Compile Include="Items\Ammo\InfiniteVenomBullet.cs" />
     <Compile Include="Infinity.cs" />
     <Compile Include="Items\Ammo\EndlessBlueFlare.cs" />
     <Compile Include="Items\BuffPotions\EndlessArcheryPotion.cs" />
@@ -86,13 +96,13 @@
     <Compile Include="Items\Throwables\EndlessSnowball.cs" />
     <Compile Include="Items\Throwables\EndlessSpikyBall.cs" />
     <Compile Include="Items\Ammo\EndlessGoldCoin.cs" />
-    <Compile Include="Items\Ammo\InfiniteBoneArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteBlueSolution.cs" />
-    <Compile Include="Items\Ammo\InfiniteChloroBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteChlorophyteArrow.cs" />
-    <Compile Include="Items\Ammo\InfiniteCrystalBullet.cs" />
-    <Compile Include="Items\Ammo\InfiniteCrystalDart.cs" />
-    <Compile Include="Items\Ammo\InfiniteCursedArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessBoneArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessBlueSolution.cs" />
+    <Compile Include="Items\Ammo\EndlessChlorophyteBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessChlorophyteArrow.cs" />
+    <Compile Include="Items\Ammo\EndlessCrystalBullet.cs" />
+    <Compile Include="Items\Ammo\EndlessCrystalDart.cs" />
+    <Compile Include="Items\Ammo\EndlessCursedArrow.cs" />
     <Compile Include="Items\Ammo\InfiniteCursedBullet.cs" />
     <Compile Include="Items\Ammo\InfiniteCursedDart.cs" />
     <Compile Include="Items\Ammo\InfiniteDarkBlueSolution.cs" />
@@ -107,7 +117,7 @@
     <Compile Include="Items\Ammo\InfiniteIchorArrow.cs" />
     <Compile Include="Items\Ammo\InfiniteIchorBullet.cs" />
     <Compile Include="Items\Ammo\InfiniteIchorDart.cs" />
-    <Compile Include="Items\Ammo\InfiniteJesterArrow.cs" />
+    <Compile Include="Items\Ammo\InfiniteJestersArrow.cs" />
     <Compile Include="Items\Ammo\InfiniteLuminiteArrow.cs" />
     <Compile Include="Items\Ammo\InfiniteLuminiteBullet.cs" />
     <Compile Include="Items\Ammo\InfiniteMeteorBullet.cs" />
@@ -164,6 +174,8 @@
     <Compile Include="Items\Ammo\EndlessStake.cs" />
     <Compile Include="Items\Throwables\EndlessStickyGlowstick.cs" />
     <Compile Include="Items\Ammo\EndlessStyngerBolt.cs" />
+    <Compile Include="Items\Ammo\EndlessPlatinumCoin.cs" />
+    <Compile Include="Items\Ammo\EndlessSilverCoin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
