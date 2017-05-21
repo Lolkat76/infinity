@@ -18,7 +18,8 @@ namespace Infinity.Items.Throwables
 			item.useTime = 18;
 			item.useAnimation = 18;
 			item.useStyle = 1;
-			item.maxStack = 1;
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.toolTip = "Hey it's egg.";
 			item.consumable = false;
 			item.knockBack = 6.5f;

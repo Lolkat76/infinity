@@ -6,31 +6,31 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class EndlessGoldCoin : ModItem
+	public class EndlessLuminiteBullet : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Evershining Gold Coin";
-			item.damage = 100;
+			item.name = "Endless Luminite Pouch";
+			item.damage = 22;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "One of the most Ausome coins to exist";
+			item.toolTip = "Line 'em up and knock 'em down... infinitely.";
 			item.consumable = false;
-			item.knockBack = 2f;
+			item.knockBack = 3f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = ProjectileID.GoldCoin;
-			item.shootSpeed = 3f;
-			item.ammo = AmmoID.Coin;
+			item.shoot = ProjectileID.MoonlordBullet;
+			item.shootSpeed = 2f;
+			item.ammo = AmmoID.Bullet;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.GoldCoin, 999);
-			recipe.AddTile(TileID.TinkerersWorkbench);
+			recipe.AddIngredient(ItemID.MoonlordBullet, 3996);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

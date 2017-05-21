@@ -6,31 +6,31 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class EndlessGoldCoin : ModItem
+	public class EndlessIchorArrow : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Evershining Gold Coin";
-			item.damage = 100;
+			item.name = "Endless Ichor Quiver";
+			item.damage = 16;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "One of the most Ausome coins to exist";
+			item.toolTip = "Decreases taget's defense. Not infinitely though, unlike the amount of arrows.";
 			item.consumable = false;
-			item.knockBack = 2f;
+			item.knockBack = 3f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = ProjectileID.GoldCoin;
-			item.shootSpeed = 3f;
-			item.ammo = AmmoID.Coin;
+			item.shoot = ProjectileID.IchorArrow;
+			item.shootSpeed = 4.25f;
+			item.ammo = AmmoID.Arrow;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.GoldCoin, 999);
-			recipe.AddTile(TileID.TinkerersWorkbench);
+			recipe.AddIngredient(ItemID.IchorArrow, 3996);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

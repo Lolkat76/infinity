@@ -6,31 +6,31 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Ammo
 {
-	public class EndlessGoldCoin : ModItem
+	public class EndlessCursedDart : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Evershining Gold Coin";
-			item.damage = 100;
+			item.name = "Infinite Cursed Dart";
+			item.damage = 9;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "One of the most Ausome coins to exist";
+			item.toolTip = "Click click click.";
 			item.consumable = false;
-			item.knockBack = 2f;
+			item.knockBack = 2.2f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = ProjectileID.GoldCoin;
+			item.shoot = ProjectileID.CursedDart;
 			item.shootSpeed = 3f;
-			item.ammo = AmmoID.Coin;
+			item.ammo = AmmoID.Dart;
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.GoldCoin, 999);
-			recipe.AddTile(TileID.TinkerersWorkbench);
+			recipe.AddIngredient(ItemID.CursedDart, 3996);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

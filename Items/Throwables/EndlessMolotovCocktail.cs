@@ -18,7 +18,8 @@ namespace Infinity.Items.Throwables
 			item.useTime = 39;
 			item.useAnimation = 39;
 			item.useStyle = 1;
-			item.maxStack = 1;
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.toolTip = "I'mma be a one-man fire-throwing apocalypse.";
 			item.consumable = false;
 			item.knockBack = 7f;
