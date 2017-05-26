@@ -8,9 +8,15 @@ namespace Infinity.Items.BuffPotions
 {
 	public class EndlessMagicPowerPotion : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Overloaded Magic Potion");
+            Tooltip.SetDefault("Infinitely provides Magic Power");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Overloaded Magic Potion";
 			item.width = 20;
             item.height = 28;
             item.UseSound = SoundID.Item3;
@@ -20,7 +26,6 @@ namespace Infinity.Items.BuffPotions
             item.useTime = 10;
             item.maxStack = 1;
             item.consumable = false;
-            item.toolTip = "Infinitely provides Magic Power";
             item.value = 10000;
             item.rare = 1;
             item.buffType = BuffID.MagicPower;

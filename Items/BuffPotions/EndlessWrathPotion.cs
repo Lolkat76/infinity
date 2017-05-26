@@ -5,9 +5,15 @@ namespace Infinity.Items.BuffPotions
 {
 	public class EndlessWrathPotion : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Bottomless Wrath Potion");
+            Tooltip.SetDefault("Infinitely provides Wrath");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Bottomless Wrath Potion";
 			item.width = 14;
 			item.height = 24;
             item.useStyle = 2;
@@ -16,10 +22,8 @@ namespace Infinity.Items.BuffPotions
             item.UseSound = SoundID.Item3;
             item.buffType = BuffID.Wrath;
             item.buffTime = 216000;
-            item.toolTip = "Infinitely provides Wrath";
 			item.value = 25000;
-			item.rare = 2;
-			
+			item.rare = 2;		
 		}
 
 		public override void AddRecipes()

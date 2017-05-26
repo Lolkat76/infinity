@@ -5,9 +5,15 @@ namespace Infinity.Items.BuffPotions
 {
 	public class EndlessLifeforcePotion : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Bottomless Lifeforce Potion");
+            Tooltip.SetDefault("Infinitely provides Lifeforce");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Bottomless Lifeforce Potion";
 			item.width = 14;
 			item.height = 24;
             item.useStyle = 2;
@@ -16,10 +22,8 @@ namespace Infinity.Items.BuffPotions
             item.UseSound = SoundID.Item3;
             item.buffType = BuffID.Lifeforce;
             item.buffTime = 216000;
-            item.toolTip = "Infinitely provides Lifeforce";
 			item.value = 25000;
-			item.rare = 2;
-			
+			item.rare = 2;		
 		}
 
 		public override void AddRecipes()

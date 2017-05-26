@@ -7,9 +7,14 @@ namespace Infinity.Items.Placeables
 {
 	public class EndlessDemonTorch : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Never-Ending Demon Torch");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Never-Ending Demon Torch";
 			item.width = 12;
 			item.height = 12;
             item.autoReuse = true;
@@ -24,7 +29,6 @@ namespace Infinity.Items.Placeables
             item.noMelee = true;
             item.holdStyle = 1;
             item.flame = true;
-            item.toolTip = "";
 			item.value = 1000;
 			item.rare = 2;			
 		}
