@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessGrenadeSticky : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Sticky Grenade");
+            Tooltip.SetDefault("Tossing is less difficult, because you have infinite.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Sticky Grenade";
 			item.damage = 60;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
             item.UseSound = SoundID.Item1;
             item.maxStack = 1;
-			item.toolTip = "Tossing is less difficult, because you have infinite.";
 			item.consumable = false;
 			item.knockBack = 8f;
 			item.value = 10;

@@ -5,9 +5,15 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessHolyWater : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Holy Water";           
+            DisplayName.SetDefault("Endless Holy Water");
+            ToolTip.SetDefault("God bless us everyone!");
+        }
+
+        public override void SetDefaults()
+        {          
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 15;
@@ -18,7 +24,6 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 9f;
             item.width = 18;
             item.height = 20;
-            item.toolTip = "Infinite Holy Water";
             item.value = 5000;
             item.rare = 2;
             item.damage = 20;

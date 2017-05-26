@@ -5,9 +5,14 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessStarAnise : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Star Anise";           
+            DisplayName.SetDefault("Endless Star Anise");
+        }
+
+        public override void SetDefaults()
+        {          
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 15;
@@ -18,15 +23,12 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 12f;
             item.width = 18;
             item.height = 20;
-            item.toolTip = "Infinite Star Anise";
             item.value = 5000;
             item.rare = 2;
             item.damage = 14;
             item.knockBack = 0f;
             item.shoot = ProjectileID.StarAnise;
             item.thrown = true;
-
-
         }
 
         public override void AddRecipes()

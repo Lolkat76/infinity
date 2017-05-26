@@ -8,9 +8,14 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessBoneJavelin : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Bone Javelin");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Bone Javelin";
 			item.damage = 29;
 			item.thrown = true;
 			item.width = 22;

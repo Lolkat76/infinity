@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessBomb : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Bomb");
+            Tooltip.SetDefault("A small explosion that will destroy some tiles.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Bomb";
 			item.damage = 99;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
             item.UseSound = SoundID.Item1;
             item.maxStack = 1;
-			item.toolTip = "A small explosion that will destroy some tiles.";
 			item.consumable = false;
 			item.knockBack = 8f;
 			item.value = 10;

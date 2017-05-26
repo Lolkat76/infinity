@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessDynamiteSticky : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Sticky Dynamite");
+            Tooltip.SetDefault("A large explosion that will destroy most tiles.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Sticky Dynamite";
 			item.damage = 250;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
             item.UseSound = SoundID.Item1;
             item.maxStack = 1;
-			item.toolTip = "A large explosion that will destroy most tiles.";
 			item.consumable = false;
 			item.knockBack = 8f;
 			item.value = 10;

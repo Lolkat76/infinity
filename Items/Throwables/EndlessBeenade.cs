@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessBeenade : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Beenade");
+            Tooltip.SetDefault("Explodes into a swarm of bees.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Beenade";
 			item.damage = 14;
 			item.thrown = true;
             item.UseSound = SoundID.Item1;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useAnimation = 14;
 			item.useStyle = 1;
 			item.maxStack = 1;
-			item.toolTip = "Explodes into a swarm of bees.";
 			item.consumable = false;
 			item.knockBack = 1f;
 			item.value = 10;

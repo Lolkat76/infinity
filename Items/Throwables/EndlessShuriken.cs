@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessShuriken : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Shuriken");
+            Tooltip.SetDefault("A special shuriken that is never consumed.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Shuriken";
 			item.damage = 10;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
             item.UseSound = SoundID.Item1;
             item.maxStack = 1;
-			item.toolTip = "A special shuriken that is never consumed.";
 			item.consumable = false;
 			item.knockBack = 0f;
 			item.value = 10;

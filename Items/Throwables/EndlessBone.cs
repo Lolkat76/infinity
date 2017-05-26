@@ -5,9 +5,15 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessBone : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Bone";           
+            DisplayName.SetDefault("Endless Bone");
+            Tooltip.SetDefault("A dog's definition of heaven");
+        }
+
+        public override void SetDefaults()
+        {          
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 12;
@@ -18,7 +24,6 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 8f;
             item.width = 12;
             item.height = 14;
-            item.toolTip = "A dog's definition of heaven";
             item.value = 5000;
             item.rare = 2;
             item.damage = 20;
@@ -27,7 +32,6 @@ namespace Infinity.Items.Throwables
             item.thrown = true;
             item.ammo = 154;
             item.notAmmo = false;
-
         }
 
         public override void AddRecipes()

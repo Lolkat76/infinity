@@ -8,7 +8,13 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessJavelin : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Javelin");
+        }
+
+        public override void SetDefaults()
 		{
 			item.name = "Endless Javelin";
 			item.damage = 17;
