@@ -8,15 +8,19 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessNanoBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Nano Bullet");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Infinite Nano Bullet";
 			item.damage = 10;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hold on.";
 			item.consumable = false;
 			item.knockBack = 5f;
 			item.value = 10;

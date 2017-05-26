@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessCrystalDart : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Crystal Dart");
+            Tooltip.SetDefault("Bingo bango bongo!");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Infinite Crystal Dart";
 			item.damage = 15;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Bingo bango bongo!";
 			item.consumable = false;
 			item.knockBack = 3.5f;
 			item.value = 10;

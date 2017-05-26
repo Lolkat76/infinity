@@ -8,15 +8,19 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessVenomBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Venom Bullet");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Infinite Venom Bullet";
 			item.damage = 14;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hold on.";
 			item.consumable = false;
 			item.knockBack = 4.1f;
 			item.value = 10;

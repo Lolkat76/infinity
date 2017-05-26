@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessChlorophyteArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Chlorophyte Quiver");
+            Tooltip.SetDefault("Still bounces back after hitting a wall, but you don't run out.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Chlorophyte Quiver";
 			item.damage = 16;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Still bounces back after hitting a wall, but you don't run out.";
 			item.consumable = false;
 			item.knockBack = 3.5f;
 			item.value = 10;

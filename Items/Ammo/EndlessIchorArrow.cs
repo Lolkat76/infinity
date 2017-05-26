@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessIchorArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Ichor Quiver");
+            Tooltip.SetDefault("Decreases target's defence. Not infinitely though, unlike the amount of arrows.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Ichor Quiver";
 			item.damage = 16;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Decreases taget's defense. Not infinitely though, unlike the amount of arrows.";
 			item.consumable = false;
 			item.knockBack = 3f;
 			item.value = 10;

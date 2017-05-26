@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessBoneArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Bone Quiver");
+            Tooltip.SetDefault("If you're looking for an Undertale joke you came to the wrong place.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Bone Quiver";
 			item.damage = 6;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "If you're looking for an Undertale joke you came to the wrong place.";
 			item.consumable = false;
 			item.knockBack = 0f;
 			item.value = 10;

@@ -5,21 +5,25 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessFlare : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Flare Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Flares");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Flare Munitions Crate";
 			item.damage = 1;
 			item.ranged = true;
             item.ammo = AmmoID.Flare;
             item.shoot = ProjectileID.Flare;
 			item.width = 26;
 			item.height = 26;
-			item.toolTip = "Provides infinite Flares";
 			item.knockBack = 1.5f;
             item.shootSpeed = 6f;
 			item.value = 1000;
-			item.rare = 2;
-			
+			item.rare = 2;			
 		}
 
 		public override void AddRecipes()

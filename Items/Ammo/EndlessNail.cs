@@ -5,9 +5,15 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessNail : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Nail Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Nails");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Nail Munitions Crate";
             item.ammo = AmmoID.NailFriendly;
             item.ranged = true;
 			item.width = 8;
@@ -16,7 +22,6 @@ namespace Infinity.Items.Ammo
             item.knockBack = 3f;
             item.shootSpeed = 6;
             item.shoot = ProjectileID.NailFriendly;
-            item.toolTip = "Provides infinite Nails";
 			item.value = 1000;
 			item.rare = 2;			
 		}

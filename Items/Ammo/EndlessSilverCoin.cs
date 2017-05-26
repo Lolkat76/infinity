@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessSilverCoin : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Evershining Silver Coin");
+            Tooltip.SetDefault("It reflects all forms of light");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Evershining Silver Coin";
 			item.damage = 50;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "It reflects all forms of light";
 			item.consumable = false;
 			item.knockBack = 2f;
 			item.value = 10;

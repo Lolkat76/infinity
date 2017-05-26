@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessCursedArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Cursed Quiver");
+            Tooltip.SetDefault("Maybe you'll learn Clingeron from it.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Cursed Quiver";
 			item.damage = 17;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Maybe you'll learn Clingeron from it.";
 			item.consumable = false;
 			item.knockBack = 3f;
 			item.value = 10;
