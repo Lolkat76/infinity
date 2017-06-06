@@ -9,7 +9,7 @@ namespace Infinity.Items.Throwables
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Holy Water");
-            ToolTip.SetDefault("God bless us everyone!");
+            Tooltip.SetDefault("God bless us everyone!");
         }
 
         public override void SetDefaults()

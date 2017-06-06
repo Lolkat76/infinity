@@ -14,14 +14,12 @@ namespace Infinity.Items.Ammo
 
         public override void SetDefaults()
 		{
-			item.name = "Blue Flare Munitions Crate";
 			item.damage = 1;
 			item.ranged = true;
             item.ammo = AmmoID.Flare;
             item.shoot = ProjectileID.BlueFlare;
 			item.width = 26;
 			item.height = 26;
-			item.toolTip = "Provides infinite Blue Flares";
 			item.knockBack = 1.5f;
             item.shootSpeed = 6f;
 			item.value = 1000;

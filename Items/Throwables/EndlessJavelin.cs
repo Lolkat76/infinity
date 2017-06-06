@@ -16,7 +16,6 @@ namespace Infinity.Items.Throwables
 
         public override void SetDefaults()
 		{
-			item.name = "Endless Javelin";
 			item.damage = 17;
 			item.thrown = true;
 			item.width = 22;

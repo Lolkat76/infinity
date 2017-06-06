@@ -15,9 +15,12 @@ namespace Infinity.ModSupport.WeaponOut.Items.Ammo
 
         public override void SetDefaults()
         {
-            item.CloneDefaults(otherMod.ItemType("SplinterShot"));
-            item.consumable = false;
-            item.maxStack = 1;
+            if (otherMod != null)
+            {
+                item.CloneDefaults(otherMod.ItemType("SplinterShot"));
+                item.consumable = false;
+                item.maxStack = 1;
+            }
         }
 
 		public override void AddRecipes()
