@@ -5,21 +5,25 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessBlueFlare : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Blue flare Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Blue Flares");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Blue Flare Munitions Crate";
 			item.damage = 1;
 			item.ranged = true;
             item.ammo = AmmoID.Flare;
             item.shoot = ProjectileID.BlueFlare;
 			item.width = 26;
 			item.height = 26;
-			item.toolTip = "Provides infinite Blue Flares";
 			item.knockBack = 1.5f;
             item.shootSpeed = 6f;
 			item.value = 1000;
-			item.rare = 2;
-			
+			item.rare = 2;		
 		}
 
 		public override void AddRecipes()

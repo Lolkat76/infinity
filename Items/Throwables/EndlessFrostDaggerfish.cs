@@ -5,9 +5,14 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessFrostDaggerfish : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Frost Daggerfish";           
+            DisplayName.SetDefault("Endless Frost Daggerfish");
+        }
+
+        public override void SetDefaults()
+        {        
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 13;
@@ -18,15 +23,12 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 12.5f;
             item.width = 28;
             item.height = 28;
-            item.toolTip = "Infinite Frost Daggerfish";
             item.value = 5000;
             item.rare = 2;
             item.damage = 17;
             item.knockBack = 3.5f;
             item.shoot = ProjectileID.FrostDaggerfish;
             item.thrown = true;
-
-
         }
 
         public override void AddRecipes()

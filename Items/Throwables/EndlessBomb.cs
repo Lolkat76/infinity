@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessBomb : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Bomb");
+            Tooltip.SetDefault("A small explosion that will destroy some tiles.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Bomb";
 			item.damage = 99;
 			item.thrown = true;
 			item.width = 22;
@@ -18,13 +24,13 @@ namespace Infinity.Items.Throwables
 			item.useTime = 24;
 			item.useAnimation = 24;
 			item.useStyle = 1;
-			item.maxStack = 1;
-			item.toolTip = "A small explosion that will destroy some tiles.";
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.consumable = false;
 			item.knockBack = 8f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 28;
+			item.shoot = ProjectileID.Bomb;
 			item.shootSpeed = 5.5f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
@@ -34,7 +40,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Bomb, 999);
-			recipe.AddTile(125);
+			recipe.AddTile(TileID.CrystalBall);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

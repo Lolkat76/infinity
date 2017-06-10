@@ -7,9 +7,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessSpelunkerGlowstick : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Spelunker Glowstick");
+            Tooltip.SetDefault("Exposes nearby treasure");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Spelunker Glowstick";
 			item.width = 12;
 			item.height = 12;
             item.useStyle = 1;
@@ -22,11 +28,8 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 6;
             item.noMelee = true;
             item.holdStyle = 1;
-            item.toolTip = "Infinite Spelunker Glowsticks";
-            item.toolTip2 = "Exposes nearby treasure";
 			item.value = 1000;
-			item.rare = 2;
-			
+			item.rare = 2;			
 		}
 
         public override void HoldItem(Player player)

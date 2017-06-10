@@ -5,9 +5,15 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessStyngerBolt : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Stynger Bolt Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Stynger Bolts");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Stynger Bolt Munitions Crate";
             item.ammo = AmmoID.StyngerBolt;
             item.ranged = true;
 			item.width = 10;
@@ -16,7 +22,6 @@ namespace Infinity.Items.Ammo
             item.knockBack = 1f;
             item.shootSpeed = 2;
             item.shoot = ProjectileID.Stynger;
-            item.toolTip = "Provides infinite Stynger Bolts";
 			item.value = 1000;
 			item.rare = 2;			
 		}

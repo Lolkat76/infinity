@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessKnife : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Knife");
+            Tooltip.SetDefault("A special knife that is never consumed.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Knife";
 			item.damage = 12;
 			item.thrown = true;
 			item.width = 22;
@@ -18,13 +24,13 @@ namespace Infinity.Items.Throwables
 			item.useTime = 14;
 			item.useAnimation = 14;
 			item.useStyle = 1;
-			item.maxStack = 1;
-			item.toolTip = "A special knife that is never consumed.";
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.consumable = false;
 			item.knockBack = 2f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 48;
+			item.shoot = ProjectileID.ThrowingKnife;
 			item.shootSpeed = 10f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
@@ -34,7 +40,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.ThrowingKnife, 999);
-			recipe.AddTile(114);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

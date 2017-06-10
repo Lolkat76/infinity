@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessSnowball : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Snowball");
+            Tooltip.SetDefault("A special snowball that is never consumed.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Snowball";
 			item.damage = 8;
 			item.thrown = true;
 			item.width = 22;
@@ -18,15 +24,15 @@ namespace Infinity.Items.Throwables
 			item.useTime = 18;
 			item.useAnimation = 18;
 			item.useStyle = 1;
-			item.maxStack = 1;
-			item.toolTip = "A special snowball that is never consumed.";
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.consumable = false;
 			item.knockBack = 5.75f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = 166;
+			item.shoot = ProjectileID.SnowBallFriendly;
 			item.shootSpeed = 7f;
-			item.ammo = 949;
+			item.ammo = AmmoID.Snowball;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
 		}
@@ -35,7 +41,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Snowball, 999);
-			recipe.AddTile(18);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

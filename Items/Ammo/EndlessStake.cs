@@ -5,9 +5,15 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessStake : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Stake Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Stakes");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Stake Munitions Crate";
             item.ammo = AmmoID.Stake;
             item.ranged = true;
 			item.width = 20;
@@ -16,7 +22,6 @@ namespace Infinity.Items.Ammo
             item.knockBack = 4.5f;
             item.shootSpeed = 3;
             item.shoot = ProjectileID.Stake;
-            item.toolTip = "Provides infinite Stakes";
 			item.value = 1000;
 			item.rare = 2;			
 		}

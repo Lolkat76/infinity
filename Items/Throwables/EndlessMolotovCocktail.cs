@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessMolotovCocktail : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Molotov Cocktail");
+            Tooltip.SetDefault("I'mma be a one-man fire-throwing apocalypse.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Molotov Cocktail";
 			item.damage = 27;
 			item.thrown = true;
 			item.width = 22;
@@ -18,8 +24,8 @@ namespace Infinity.Items.Throwables
 			item.useTime = 39;
 			item.useAnimation = 39;
 			item.useStyle = 1;
-			item.maxStack = 1;
-			item.toolTip = "I'mma be a one-man fire-throwing apocalypse.";
+            item.UseSound = SoundID.Item1;
+            item.maxStack = 1;
 			item.consumable = false;
 			item.knockBack = 7f;
 			item.value = 10;

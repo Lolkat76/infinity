@@ -7,9 +7,14 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessGlowstick : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Glowstick");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Glowstick";
 			item.width = 12;
 			item.height = 12;
             item.useStyle = 1;
@@ -22,10 +27,8 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 6;
             item.noMelee = true;
             item.holdStyle = 1;
-            item.toolTip = "Infinite Glowsticks";
 			item.value = 1000;
 			item.rare = 2;
-			
 		}
 
         public override void HoldItem(Player player)
