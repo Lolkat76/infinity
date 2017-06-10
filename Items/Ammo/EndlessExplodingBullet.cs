@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessExplodingBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Exploding Bullet");
+            Tooltip.SetDefault("Hold on...");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Infinite Exploding Bullet";
 			item.damage = 10;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Hold on.";
 			item.consumable = false;
 			item.knockBack = 6.6f;
 			item.value = 10;

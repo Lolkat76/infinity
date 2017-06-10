@@ -5,9 +5,14 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessBloodWater : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Blood Water";           
+            DisplayName.SetDefault("Endless Blood Water");
+        }
+
+        public override void SetDefaults()
+        {          
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 15;
@@ -18,7 +23,6 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 9f;
             item.width = 18;
             item.height = 20;
-            item.toolTip = "Infinite Blood Water";
             item.value = 5000;
             item.rare = 2;
             item.damage = 20;

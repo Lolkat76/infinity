@@ -5,9 +5,14 @@ namespace Infinity.Items.BuffPotions
 {
 	public class EndlessFlaskCursedFlames : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Bottomless Flask of Cursed Flames");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Bottomless Flask of Cursed Flames";
 			item.width = 14;
 			item.height = 24;
             item.useStyle = 2;
@@ -17,8 +22,7 @@ namespace Infinity.Items.BuffPotions
             item.buffType = BuffID.WeaponImbueCursedFlames;
             item.buffTime = 216000;
 			item.value = 25000;
-			item.rare = 2;
-			
+			item.rare = 2;		
 		}
 
 		public override void AddRecipes()

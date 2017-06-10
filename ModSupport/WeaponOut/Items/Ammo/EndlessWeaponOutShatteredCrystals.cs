@@ -7,24 +7,21 @@ namespace Infinity.ModSupport.WeaponOut.Items.Ammo
 	{
         Mod otherMod = ModLoader.GetMod("WeaponOut");
 
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Shattered Crystals");
+            Tooltip.SetDefault("Provides infinite Shattered Crystals");
+        }
+
 		public override void SetDefaults()
 		{
-			item.name = "Endless Shattered Crystals";
-            item.ammo = AmmoID.Bullet;
-            item.ranged = true;
-			item.width = 14;
-			item.height = 14;
-            item.damage = 7;
-            item.knockBack = 1f;
-            item.shootSpeed = 4;
             if (otherMod != null)
             {
-                item.shoot = otherMod.ProjectileType("ScatterShot");
+                item.CloneDefaults(otherMod.ItemType("ScatterShot"));
+                item.consumable = false;
+                item.maxStack = 1;
             }
-            item.toolTip = "Provides infinite Shattered Crystals";
-			item.value = 1000;
-			item.rare = 2;			
-		}
+        }
 
 		public override void AddRecipes()
 		{

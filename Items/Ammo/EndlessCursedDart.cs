@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessCursedDart : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Cursed Dart");
+            Tooltip.SetDefault("Click click click.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Infinite Cursed Dart";
 			item.damage = 9;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Click click click.";
 			item.consumable = false;
 			item.knockBack = 2.2f;
 			item.value = 10;

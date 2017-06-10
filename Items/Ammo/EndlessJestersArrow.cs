@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessJestersArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Jester Quiver");
+            Tooltip.SetDefault("It's like one of those glitter prank tubes.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Jester Quiver";
 			item.damage = 10;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "It's like one of those glitter prank tubes.";
 			item.consumable = false;
 			item.knockBack = 4f;
 			item.value = 10;

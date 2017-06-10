@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessLuminiteArrow : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Luminite Quiver");
+            Tooltip.SetDefault("Turns enemies into a + bi form.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Luminite Quiver";
 			item.damage = 15;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Turns enemies into a + bi form.";
 			item.consumable = false;
 			item.knockBack = 3.5f;
 			item.value = 10;

@@ -7,9 +7,14 @@ namespace Infinity.Items.Placeables
 {
 	public class EndlessYellowTorch : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Never-Ending Yellow Torch");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Never-Ending Yellow Torch";
 			item.width = 12;
 			item.height = 12;
             item.autoReuse = true;
@@ -24,7 +29,6 @@ namespace Infinity.Items.Placeables
             item.noMelee = true;
             item.holdStyle = 1;
             item.flame = true;
-            item.toolTip = "";
 			item.value = 1000;
 			item.rare = 2;			
 		}

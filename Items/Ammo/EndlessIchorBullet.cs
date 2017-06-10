@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessIchorBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Ichor Pouch");
+            Tooltip.SetDefault("After nine years in development, hopefully, they will have been worth the wait.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Ichor Pouch";
 			item.damage = 13;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "After nine years in development, hopefully, they will have been worth the wait.";
 			item.consumable = false;
 			item.knockBack = 4f;
 			item.value = 10;

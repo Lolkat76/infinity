@@ -5,9 +5,14 @@ namespace Infinity.Items.Throwables
 {
     public class EndlessBombFish : ModItem
     {
-        public override void SetDefaults()
+
+        public override void SetStaticDefaults()
         {
-            item.name = "Endless Bomb Fish";           
+            DisplayName.SetDefault("Endless Bomb Fish");
+        }
+
+        public override void SetDefaults()
+        {         
             item.maxStack = 1;
             item.useStyle = 1;
             item.useTime = 25;
@@ -18,7 +23,6 @@ namespace Infinity.Items.Throwables
             item.shootSpeed = 6f;
             item.width = 26;
             item.height = 26;
-            item.toolTip = "Infinite Bomb Fish";
             item.value = 5000;
             item.rare = 2;
             item.damage = 0;

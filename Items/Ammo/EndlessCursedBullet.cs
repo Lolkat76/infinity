@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessCursedBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Cursed Pouch");
+            Tooltip.SetDefault("Carrying flammable bullets in a pouch is a smart idea.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Cursed Pouch";
 			item.damage = 12;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Carrying flammable bullets in a pouch is a smart idea.";
 			item.consumable = false;
 			item.knockBack = 4f;
 			item.value = 10;

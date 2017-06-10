@@ -7,24 +7,21 @@ namespace Infinity.ModSupport.WeaponOut.Items.Ammo
 	{
         Mod otherMod = ModLoader.GetMod("WeaponOut");
 
-		public override void SetDefaults()
-		{
-			item.name = "Endless Splinter Shot";
-            item.ammo = AmmoID.Bullet;
-            item.ranged = true;
-			item.width = 8;
-			item.height = 8;
-            item.damage = 4;
-            item.knockBack = 1f;
-            item.shootSpeed = 2;
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Splinter Shot");
+            Tooltip.SetDefault("Provides infinite Splinter Shots");
+        }
+
+        public override void SetDefaults()
+        {
             if (otherMod != null)
             {
-                item.shoot = otherMod.ProjectileType("SplinterShot");
+                item.CloneDefaults(otherMod.ItemType("SplinterShot"));
+                item.consumable = false;
+                item.maxStack = 1;
             }
-            item.toolTip = "Provides infinite Splinter Shots";
-			item.value = 1000;
-			item.rare = 2;			
-		}
+        }
 
 		public override void AddRecipes()
 		{

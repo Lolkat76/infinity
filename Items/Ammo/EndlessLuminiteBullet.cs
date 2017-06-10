@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessLuminiteBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Luminite Pouch");
+            Tooltip.SetDefault("Line 'em up and knock 'em down... infinitely.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Luminite Pouch";
 			item.damage = 22;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Line 'em up and knock 'em down... infinitely.";
 			item.consumable = false;
 			item.knockBack = 3f;
 			item.value = 10;

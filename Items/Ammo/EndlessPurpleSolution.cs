@@ -8,10 +8,15 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessPurpleSolution : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Infinite Purple Solution");
+        }
+
+        public override void SetDefaults()
 		{
 			item.CloneDefaults(ItemID.PurpleSolution);
-			item.name = "Infinite Purple Solution";
 			item.maxStack = 1;
 			item.consumable = false;
 		}

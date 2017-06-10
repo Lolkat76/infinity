@@ -8,9 +8,16 @@ namespace Infinity.Items.BuffPotions
 {
 	public class EndlessShinePotion : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Fullbright Potion");
+            Tooltip.SetDefault("Infinitely provides Shine" 
+                +"\nIs this your first map?");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Fullbright Potion";
 			item.width = 20;
             item.height = 28;
             item.UseSound = SoundID.Item3;
@@ -20,8 +27,6 @@ namespace Infinity.Items.BuffPotions
             item.useTime = 10;
             item.maxStack = 1;
             item.consumable = false;
-            item.toolTip = "Infinitely provides Shine";
-			item.toolTip2 = "Is this your first map?";
             item.value = 10000;
             item.rare = 1;
             item.buffType = BuffID.Shine;

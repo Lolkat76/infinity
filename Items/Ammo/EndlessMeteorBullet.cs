@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessMeteorBullet : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Meteor Pouch");
+            Tooltip.SetDefault("Still a reliable island hunter.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Meteor Pouch";
 			item.damage = 9;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Still a reliable island hunter.";
 			item.consumable = false;
 			item.knockBack = 1f;
 			item.value = 10;

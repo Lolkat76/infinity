@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessBoneKnife : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Bone Throwing Knife");
+            Tooltip.SetDefault("A special knife that is never consumed");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Bone Throwing Knife";
 			item.damage = 14;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
 			item.maxStack = 1;
             item.UseSound = SoundID.Item1;
-            item.toolTip = "A special knife that is never consumed.";
 			item.consumable = false;
 			item.autoReuse = true;
 			item.knockBack = 1.5f;

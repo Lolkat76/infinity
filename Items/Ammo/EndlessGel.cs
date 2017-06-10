@@ -5,16 +5,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessGel : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Endless Gel");
+            Tooltip.SetDefault("It looks like it's slowly growing");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Endless Gel";
             item.ammo = AmmoID.Gel;
 			item.width = 10;
 			item.height = 12;
-            item.toolTip = "It looks like it's growing";
 			item.value = 1000;
-			item.rare = 2;
-			
+			item.rare = 2;		
 		}
 
 		public override void AddRecipes()

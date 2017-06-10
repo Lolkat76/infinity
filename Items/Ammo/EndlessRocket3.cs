@@ -8,15 +8,20 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessRocket3 : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Rocket III Munitions Crate");
+            Tooltip.SetDefault("Contains an endless supply of Rocket IIIs.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Rocket III Munitions Crate";
 			item.damage = 65;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
 			item.maxStack = 1;
-			item.toolTip = "Contains an endless supply of Rocket IIIs.";
 			item.consumable = false;
 			item.knockBack = 6f;
 			item.value = 10;

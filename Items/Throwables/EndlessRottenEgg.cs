@@ -8,9 +8,15 @@ namespace Infinity.Items.Throwables
 {
 	public class EndlessRottenEgg : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("'Egg'");
+            Tooltip.SetDefault("Hey it's egg.");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "'Egg'";
 			item.damage = 13;
 			item.thrown = true;
 			item.width = 22;
@@ -20,7 +26,6 @@ namespace Infinity.Items.Throwables
 			item.useStyle = 1;
             item.UseSound = SoundID.Item1;
             item.maxStack = 1;
-			item.toolTip = "Hey it's egg.";
 			item.consumable = false;
 			item.knockBack = 6.5f;
 			item.value = 10;

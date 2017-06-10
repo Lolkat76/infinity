@@ -5,9 +5,15 @@ namespace Infinity.Items.Ammo
 {
 	public class EndlessCandyCorn : ModItem
 	{
-		public override void SetDefaults()
+
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Candy Corn Munitions Crate");
+            Tooltip.SetDefault("Provides infinite Candy Corn");
+        }
+
+        public override void SetDefaults()
 		{
-			item.name = "Candy Corn Munitions Crate";
             item.ammo = AmmoID.CandyCorn;
             item.ranged = true;
 			item.width = 8;
@@ -16,7 +22,6 @@ namespace Infinity.Items.Ammo
             item.knockBack = 1.5f;
             item.shootSpeed = 4;
             item.shoot = ProjectileID.CandyCorn;
-            item.toolTip = "Provides infinite Candy Corn";
 			item.value = 1000;
 			item.rare = 2;			
 		}
