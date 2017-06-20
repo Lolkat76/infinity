@@ -26,7 +26,7 @@ namespace Infinity.Items.Ammo
 			item.knockBack = 2f;
 			item.value = 10;
 			item.rare = 2;
-			item.shoot = ProjectileID.FlamingArrow;
+			item.shoot = ProjectileID.FireArrow;
 			item.shootSpeed = 3.5f;
 			item.ammo = AmmoID.Arrow;
 		}
