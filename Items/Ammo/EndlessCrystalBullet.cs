@@ -12,7 +12,7 @@ namespace Infinity.Items.Ammo
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Crystal Pouch");
-            Tooltip.SetDefault("Creates severa; crysta; shards on impact.");
+            Tooltip.SetDefault("Creates several crystal shards on impact.");
         }
 
         public override void SetDefaults()
