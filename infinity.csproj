@@ -205,7 +205,9 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ModSupport\Thorium\Items\Ammo\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
