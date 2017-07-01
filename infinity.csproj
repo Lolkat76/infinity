@@ -178,6 +178,13 @@
     <Compile Include="Items\Ammo\EndlessStyngerBolt.cs" />
     <Compile Include="Items\Ammo\EndlessPlatinumCoin.cs" />
     <Compile Include="Items\Ammo\EndlessSilverCoin.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorSBCCannonballAmmo.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorTungstenBullet.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorPopcorn.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorNightmareBullet.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorNightmareArrow.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorIceBullet.cs" />
+    <Compile Include="ModSupport\Tremor\Items\Ammo\EndlessTremorCarrot.cs" />
     <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutShatteredCrystals.cs" />
     <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutSplinterShot.cs" />
   </ItemGroup>

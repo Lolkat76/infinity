@@ -38,5 +38,13 @@ namespace Infinity.Items.Other
                 }
             }
         }
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.TeleportationPotion, 30);
+            recipe.AddTile(TileID.TinkerersWorkbench);
+            recipe.SetResult(this, 1);
+            recipe.AddRecipe();
+        }
     }
 }
