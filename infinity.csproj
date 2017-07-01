@@ -75,6 +75,8 @@
     <Compile Include="Items\BuffPotions\EndlessThornsPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessWaterWalkingPotion.cs" />
     <Compile Include="Items\Ammo\EndlessCopperCoin.cs" />
+    <Compile Include="Items\Other\EndlessTeleportationPotion.cs" />
+    <Compile Include="Items\Other\EndlessWormholePotion.cs" />
     <Compile Include="Items\Throwables\EndlessBeenade.cs" />
     <Compile Include="Items\Throwables\EndlessBomb.cs" />
     <Compile Include="Items\Throwables\EndlessBombBouncy.cs" />
