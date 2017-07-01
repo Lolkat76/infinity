@@ -29,7 +29,7 @@ namespace Infinity.ModSupport.Tremor.Items.Ammo
             {
                 ModRecipe recipe = new ModRecipe(mod);
                 recipe.AddIngredient(otherMod.ItemType("PopcornAmmo"), 3996);
-                recipe.AddTile(TileID.MythrilAnvil);
+                recipe.AddTile(TileID.TinkerersWorkbench);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
             }

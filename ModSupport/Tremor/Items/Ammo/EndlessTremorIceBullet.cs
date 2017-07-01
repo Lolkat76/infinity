@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Tremor.Items.Ammo
             {
                 ModRecipe recipe = new ModRecipe(mod);
                 recipe.AddIngredient(otherMod.ItemType("IceBullet"), 3996);
-                recipe.AddTile(TileID.MythrilAnvil);
+                recipe.AddTile(TileID.WorkBenches);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
             }
