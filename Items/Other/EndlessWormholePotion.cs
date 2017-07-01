@@ -23,7 +23,8 @@ namespace Infinity.Items.Other
             item.maxStack = 1;
             item.consumable = false;
         }
-
+       
+        #region Wormhole Check       
         public override void UpdateInventory(Player player)
         {
             for (int index3 = 0; index3 < (int)byte.MaxValue; ++index3)
@@ -76,6 +77,16 @@ namespace Infinity.Items.Other
                     }
                 }
             }
+        }
+        #endregion
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.WormholePotion, 30);
+            recipe.AddTile(TileID.TinkerersWorkbench);
+            recipe.SetResult(this, 1);
+            recipe.AddRecipe();
         }
     }
 }
