@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Tremor.Items.Ammo
             {
                 ModRecipe recipe = new ModRecipe(mod);
                 recipe.AddIngredient(otherMod.ItemType("NightmareArrow"), 3996);
-                recipe.AddTile(TileID.MythrilAnvil);
+                recipe.AddTile(TileID.LunarCraftingStation);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
             }

@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.ModSupport.Tremor.Items.Ammo
 {
-    public class EndlessTremorSBCCannonball : ModItem
+    public class EndlessTremorSBCCannonballAmmo : ModItem
     {
         Mod otherMod = ModLoader.GetMod("Tremor");
 
