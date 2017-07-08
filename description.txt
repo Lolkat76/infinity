@@ -1,6 +1,15 @@
 Adds in endless items.
 These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
-Currently has endless versions of these items:
+Changelog:
+(15.0)
+-Added partial support for tremor*
+
+*The items missing are the alchemic weapons and the potions.
+
+(14.1)
+-Fixed a couple of typos and other bugs
+-Added endless versions of the wormhole potion and teleportation potion
+
 (14.0)
 -Updated Infinity to tModLoader 0.10
 -Added mod support for WeaponOut

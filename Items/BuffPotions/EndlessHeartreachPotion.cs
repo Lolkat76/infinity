@@ -8,7 +8,7 @@ namespace Infinity.Items.BuffPotions
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bottomless Ammo Reservation Potion");
+            DisplayName.SetDefault("Bottomless Heartreach Potion");
             Tooltip.SetDefault("Infinitely provides Heartreach");
         }
 
