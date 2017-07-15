@@ -30,7 +30,7 @@ namespace Infinity.Items.Throwables
 			item.knockBack = 5f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = ProjectileID.JavelinFriendly;
+			item.shoot = ProjectileID.BoneJavelin;
 			item.shootSpeed = 10f;
 			item.noMelee = true; //Makes it so it cannot do damage like a sword
 			item.noUseGraphic = true; //Makes it so the item can't be seen in hand when used.
