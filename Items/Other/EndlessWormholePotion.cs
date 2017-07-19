@@ -60,7 +60,7 @@ namespace Infinity.Items.Other
                     float num30 = num27 + 28f * num28;
                     float num31 = num29 + 28f * num28;
 
-                    if (!Main.player[index3].dead)
+                    if (!Main.player[index3].dead && Main.mapFullscreen)
                     {                       
                         if ((double)Main.mouseX >= (double)num27 && (double)Main.mouseX <= (double)num30 && ((double)Main.mouseY >= (double)num29 && (double)Main.mouseY <= (double)num31))
                         {
