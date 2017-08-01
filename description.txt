@@ -4,7 +4,7 @@ Changelog:
 
 (15.3)
 -Added endless recall potion
--
+-Added endless healing potions
 
 (15.2)
 -(Hopefully) Fixed the singularity potion 

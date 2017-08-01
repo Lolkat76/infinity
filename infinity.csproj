@@ -75,6 +75,10 @@
     <Compile Include="Items\BuffPotions\EndlessThornsPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessWaterWalkingPotion.cs" />
     <Compile Include="Items\Ammo\EndlessCopperCoin.cs" />
+    <Compile Include="Items\Other\EndlessGreaterHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessSuperHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessLesserHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessHealingPotion.cs" />
     <Compile Include="Items\Other\EndlessTeleportationPotion.cs" />
     <Compile Include="Items\Other\EndlessRecallPotion.cs" />
     <Compile Include="Items\Other\EndlessWormholePotion.cs" />
