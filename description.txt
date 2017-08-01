@@ -5,6 +5,8 @@ Changelog:
 (15.3)
 -Added endless recall potion
 -Added endless healing potions
+-Changed sprites for Jester's arrow quiver and endless snowballs
+-Renamed endless snowballs
 
 (15.2)
 -(Hopefully) Fixed the singularity potion 
