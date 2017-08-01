@@ -24,7 +24,7 @@ namespace Infinity.Items.Other
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.LesserHealingPotion, 30);
+            recipe.AddIngredient(ItemID.LesserHealingPotion, 120);
             recipe.AddTile(TileID.TinkerersWorkbench);
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
