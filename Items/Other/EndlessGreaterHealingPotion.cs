@@ -14,11 +14,17 @@ namespace Infinity.Items.Other
         {
             DisplayName.SetDefault("Bottomless Greater Healing Potion");
         }
+
         public override void SetDefaults()
         {
             item.CloneDefaults(ItemID.GreaterHealingPotion);
             item.maxStack = 1;
             item.consumable = false;
+        }
+
+        public override bool ConsumeItem(Player player)
+        {
+            return false;
         }
 
         public override void AddRecipes()

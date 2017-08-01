@@ -20,7 +20,10 @@ namespace Infinity.Items.Other
             item.maxStack = 1;
             item.consumable = false;
         }
-
+        public override bool ConsumeItem(Player player)
+        {
+            return false;
+        }
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
