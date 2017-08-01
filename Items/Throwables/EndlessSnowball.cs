@@ -11,8 +11,8 @@ namespace Infinity.Items.Throwables
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Endless Snowball");
-            Tooltip.SetDefault("A special snowball that is never consumed.");
+            DisplayName.SetDefault("Pile of Snowballs");
+            Tooltip.SetDefault("A pile of snowballs that is never consumed.");
         }
 
         public override void SetDefaults()

@@ -9,7 +9,7 @@ namespace Infinity.ModSupport.WeaponOut.Items.Ammo
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Endless Shattered Crystals");
+            DisplayName.SetDefault("Endless Shattered Crystal Pouch");
             Tooltip.SetDefault("Provides infinite Shattered Crystals");
         }
 

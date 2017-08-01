@@ -75,7 +75,12 @@
     <Compile Include="Items\BuffPotions\EndlessThornsPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessWaterWalkingPotion.cs" />
     <Compile Include="Items\Ammo\EndlessCopperCoin.cs" />
+    <Compile Include="Items\Other\EndlessGreaterHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessSuperHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessLesserHealingPotion.cs" />
+    <Compile Include="Items\Other\EndlessHealingPotion.cs" />
     <Compile Include="Items\Other\EndlessTeleportationPotion.cs" />
+    <Compile Include="Items\Other\EndlessRecallPotion.cs" />
     <Compile Include="Items\Other\EndlessWormholePotion.cs" />
     <Compile Include="Items\Throwables\EndlessBeenade.cs" />
     <Compile Include="Items\Throwables\EndlessBomb.cs" />
@@ -216,6 +221,7 @@
     <Compile Include="ModSupport\Tremor\Items\Throwables\EndlessTremorAlphaKnife.cs" />
     <Compile Include="ModSupport\Tremor\Items\Throwables\EndlessTremorRock.cs" />
     <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutShatteredCrystals.cs" />
+    <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutMeteorBreakshot.cs" />
     <Compile Include="ModSupport\WeaponOut\Items\Ammo\EndlessWeaponOutSplinterShot.cs" />
   </ItemGroup>
   <ItemGroup>

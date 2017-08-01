@@ -60,11 +60,11 @@ namespace Infinity.Items.Other
                     float num30 = num27 + 28f * num28;
                     float num31 = num29 + 28f * num28;
 
-                    if (!Main.player[index3].dead)
+                    if (!Main.player[index3].dead && Main.mapFullscreen)
                     {                       
                         if ((double)Main.mouseX >= (double)num27 && (double)Main.mouseX <= (double)num30 && ((double)Main.mouseY >= (double)num29 && (double)Main.mouseY <= (double)num31))
                         {
-                            if (index3 != Main.myPlayer && Main.player[Main.myPlayer].team > 0 && (Main.player[Main.myPlayer].team == Main.player[index3].team && Main.netMode == 1))
+                            if (index3 != Main.myPlayer && Main.player[Main.myPlayer].team > 0 && (Main.player[Main.myPlayer].team == Main.player[index3].team && Main.netMode == 1) && HasEndlessWormholePotion(Main.player[Main.myPlayer]))
                             {
                                 if (Main.mouseLeft && Main.mouseLeftRelease)
                                 {
@@ -79,6 +79,16 @@ namespace Infinity.Items.Other
             }
         }
         #endregion
+
+        public bool HasEndlessWormholePotion(Player player)
+        {
+            for (int index = 0; index < 58; ++index)
+            {
+                if (player.inventory[index].type == mod.ItemType("EndlessWormholePotion") && player.inventory[index].stack > 0)
+                    return true;
+            }
+            return false;
+        }
 
         public override void AddRecipes()
         {
