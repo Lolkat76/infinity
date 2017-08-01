@@ -18,7 +18,7 @@ namespace Infinity.ModSupport.WeaponOut.Items.Ammo
             if (otherMod != null)
             {
                 item.CloneDefaults(otherMod.ItemType("MeteorBreakshot"));
-                item.consumable = false;
+                item.consumable = false;               
                 item.maxStack = 1;
             }
         }

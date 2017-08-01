@@ -22,21 +22,13 @@ namespace Infinity.Items.Other
             item.maxStack = 1;
             item.consumable = false;
         }
-        public override void HoldItem(Player player)
+        public override bool UseItem(Player player)
         {
-            if (player.itemAnimation > 0)
-            {
-                if (player.itemTime == 0)
-                    player.itemTime = item.useTime;
-                else if (player.itemTime == 2)
-                {
                     if (Main.netMode == 0)
                         player.TeleportationPotion();
                     else if (Main.netMode == 1 && player.whoAmI == Main.myPlayer)
                         NetMessage.SendData(73, -1, -1, null, 0, 0.0f, 0.0f, 0.0f, 0, 0, 0);
-
-                }
-            }
+            return true;
         }
         public override void AddRecipes()
         {
