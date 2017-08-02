@@ -1,15 +1,18 @@
 Adds in endless items.
 These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
 Changelog:
+(16.0)
+-Added support for Dart Expansion
 
 (15.3)
 -Added endless recall potion
 -Added endless healing potions
+-Added endless mana potions
 -Changed sprites for Jester's arrow quiver and endless snowballs
 -Renamed endless snowballs
 
 (15.2)
--(Hopefully) Fixed the singularity potion 
+-Fixed the singularity potion 
 
 (15.1)
 -Fixed the bone javelin using the wrong projectile
