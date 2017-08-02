@@ -8,15 +8,15 @@ using Terraria.ModLoader;
 
 namespace Infinity.Items.Other
 {
-    public class EndlessLesserHealingPotion : ModItem
+    public class EndlessSuperManaPotion : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bottomless Lesser Healing Potion");
+            DisplayName.SetDefault("Bottomless Super Mana Potion");
         }
         public override void SetDefaults()
         {
-            item.CloneDefaults(ItemID.LesserHealingPotion);
+            item.CloneDefaults(ItemID.SuperManaPotion);
             item.maxStack = 1;
             item.consumable = false;
         }
@@ -27,7 +27,7 @@ namespace Infinity.Items.Other
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.LesserHealingPotion, 60);
+            recipe.AddIngredient(ItemID.SuperManaPotion, 180);
             recipe.AddTile(TileID.TinkerersWorkbench);
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
