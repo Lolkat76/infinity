@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace Infinity.ModSupport.DartExpansion.Items.Ammo
 {
-	public class EndlessGlassDart : ModItem
+	public class EndlessDartExpansionGlassDart : ModItem
 	{
         Mod otherMod = ModLoader.GetMod("DartExpansion");
 
