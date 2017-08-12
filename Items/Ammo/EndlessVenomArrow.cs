@@ -12,7 +12,7 @@ namespace Infinity.Items.Ammo
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Venom Quiver");
-            Tooltip.SetDefault("Inflicys targets with venom ...and has infinite arrows");
+            Tooltip.SetDefault("Inflicts targets with venom ...and has infinite arrows");
         }
 
         public override void SetDefaults()

@@ -8,7 +8,7 @@ namespace Infinity.Items.Ammo
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Blue flare Munitions Crate");
+            DisplayName.SetDefault("Blue Flare Munitions Crate");
             Tooltip.SetDefault("Provides infinite Blue Flares");
         }
 
