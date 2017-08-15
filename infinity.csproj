@@ -205,7 +205,24 @@
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityMortarRound.cs" />
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityNapalmArrow.cs" />
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityHolyFireBullet.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityYharimsStimulants.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityCalamitasBrew.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityTitanScalePotion.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityPotionofOmniscience.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityCadencePotion.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamitySupremeHealingPotion.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityOmegaHealingPotion.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityAdamantiteThrowingAxe.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityFeatherKnife.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityCobaltKunai.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityPalladiumJavelin.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityIceStar.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityGelDart.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityOrichalcumSpikedGemstone.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityCrystalPiercer.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityXerocPitchfork.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityTarragonThrowingDart.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityTitaniumShuriken.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityWulfrumKnife.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityToothBall.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityRotBall.cs" />
@@ -289,7 +306,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ModSupport\Calamity\Items\Potions\" />
     <Folder Include="ModSupport\Thorium\Items\Ammo\" />
   </ItemGroup>
   <ItemGroup>

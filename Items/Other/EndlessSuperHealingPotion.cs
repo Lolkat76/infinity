@@ -25,6 +25,7 @@ namespace Infinity.Items.Other
         {
             return false;
         }
+
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
