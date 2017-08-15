@@ -215,6 +215,7 @@
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityAdamantiteThrowingAxe.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityFeatherKnife.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityCobaltKunai.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityMythrilKnife.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityPalladiumJavelin.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityIceStar.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityGelDart.cs" />
