@@ -205,6 +205,10 @@
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityMortarRound.cs" />
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityNapalmArrow.cs" />
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityHolyFireBullet.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityAdamantiteThrowingAxe.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityWulfrumKnife.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityToothBall.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityRotBall.cs" />
     <Compile Include="ModSupport\DartExpansion\Items\Ammo\EndlessDartExpansionChlorophyteDart.cs" />
     <Compile Include="ModSupport\DartExpansion\Items\Ammo\EndlessDartExpansionEctoplasmDart.cs" />
     <Compile Include="ModSupport\DartExpansion\Items\Ammo\EndlessDartExpansionGlassDart.cs" />
@@ -286,7 +290,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ModSupport\Calamity\Items\Potions\" />
-    <Folder Include="ModSupport\Calamity\Items\Throwables\" />
     <Folder Include="ModSupport\Thorium\Items\Ammo\" />
   </ItemGroup>
   <ItemGroup>
