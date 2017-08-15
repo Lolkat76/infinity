@@ -1,6 +1,10 @@
 Adds in endless items.
 These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
 Changelog:
+(17.0)
+-Added support for calamity
+-Fixed several bugs
+
 (16.0)
 -Added support for Dart Expansion
 

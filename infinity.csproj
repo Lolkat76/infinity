@@ -207,9 +207,9 @@
     <Compile Include="ModSupport\Calamity\Items\Ammo\EndlessCalamityHolyFireBullet.cs" />
     <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityYharimsStimulants.cs" />
     <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityCalamitasBrew.cs" />
-    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityTitanScalePotion.cs" />
-    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityPotionofOmniscience.cs" />
     <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityCadencePotion.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityPotionofOmniscience.cs" />
+    <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityTitanScalePotion.cs" />
     <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamitySupremeHealingPotion.cs" />
     <Compile Include="ModSupport\Calamity\Items\Potions\EndlessCalamityOmegaHealingPotion.cs" />
     <Compile Include="ModSupport\Calamity\Items\Throwables\EndlessCalamityAdamantiteThrowingAxe.cs" />

@@ -4,13 +4,13 @@ using Terraria.ModLoader;
 
 namespace Infinity.ModSupport.Calamity.Items.Potions
 {
-	public class EndlessCalamityTitanScalePotion : ModItem
+	public class EndlessCalamityCadencePotion : ModItem
 	{
         Mod otherMod = ModLoader.GetMod("CalamityMod");
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bottomless Titan Scale Potion");
+            DisplayName.SetDefault("Bottomless Cadence  Potion");
             //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
@@ -18,7 +18,7 @@ namespace Infinity.ModSupport.Calamity.Items.Potions
         {
             if (otherMod != null)
             {
-                item.CloneDefaults(otherMod.ItemType("TitanScalePotion"));
+                item.CloneDefaults(otherMod.ItemType("CadencePotion"));
                 item.consumable = false;
                 item.buffTime = 216000;
                 item.maxStack = 1;
@@ -35,7 +35,7 @@ namespace Infinity.ModSupport.Calamity.Items.Potions
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("TitanScalePotion"), 30);
+                recipe.AddIngredient(otherMod.ItemType("CadencePotion"), 30);
                 recipe.AddTile(TileID.TinkerersWorkbench);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

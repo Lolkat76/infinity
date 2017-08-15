@@ -4,13 +4,13 @@ using Terraria.ModLoader;
 
 namespace Infinity.ModSupport.Calamity.Items.Potions
 {
-	public class EndlessCalamityYharimsStimulants : ModItem
+	public class EndlessCalamityCalamitasBrew : ModItem
 	{
         Mod otherMod = ModLoader.GetMod("CalamityMod");
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bottomless Yharim's Stimulants");
+            DisplayName.SetDefault("Bottomless Calamitas' Brew");
             //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
@@ -18,7 +18,7 @@ namespace Infinity.ModSupport.Calamity.Items.Potions
         {
             if (otherMod != null)
             {
-                item.CloneDefaults(otherMod.ItemType("YharimsStimulants"));
+                item.CloneDefaults(otherMod.ItemType("CalamitasBrew"));
                 item.consumable = false;
                 item.buffTime = 216000;
                 item.maxStack = 1;
@@ -35,7 +35,7 @@ namespace Infinity.ModSupport.Calamity.Items.Potions
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("YharimsStimulant"), 30);
+                recipe.AddIngredient(otherMod.ItemType("CalamitasBrew"), 30);
                 recipe.AddTile(TileID.TinkerersWorkbench);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
