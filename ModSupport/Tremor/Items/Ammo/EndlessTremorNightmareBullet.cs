@@ -9,7 +9,7 @@ namespace Infinity.ModSupport.Tremor.Items.Ammo
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Endless Nightmare Pouch");
+            DisplayName.SetDefault("Endless Nightmare Bullet");
         }
 
         public override void SetDefaults()
