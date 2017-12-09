@@ -1,3 +1,4 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -8,7 +9,7 @@ namespace Infinity.Items.Ammo
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Blue flare Munitions Crate");
+            DisplayName.SetDefault("Blue Flare Munitions Crate");
             Tooltip.SetDefault("Provides infinite Blue Flares");
         }
 
@@ -26,7 +27,12 @@ namespace Infinity.Items.Ammo
 			item.rare = 2;		
 		}
 
-		public override void AddRecipes()
+        public override bool ConsumeAmmo(Player player)
+        {
+            return false;
+        }
+
+        public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.BlueFlare, 3996);

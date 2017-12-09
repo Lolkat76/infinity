@@ -45,8 +45,10 @@ namespace Infinity.Items.Placeables
                 Main.dust[index].position = player.RotatedRelativePoint(Main.dust[index].position, true);
             }
 
-            Vector2 position = player.RotatedRelativePoint(new Vector2(player.itemLocation.X + 12f * player.direction + player.velocity.X, player.itemLocation.Y - 14f + player.velocity.Y), true);         
-            Lighting.AddLight(position, (float)(0.5 * (double)Main.demonTorch + 1.0 * (1.0 - (double)Main.demonTorch)), 0.3f, (float)(1.0 * (double)Main.demonTorch + 0.5 * (1.0 - (double)Main.demonTorch)));
+            Vector2 position = player.RotatedRelativePoint(new Vector2(player.itemLocation.X + 12f * player.direction + player.velocity.X, player.itemLocation.Y - 14f + player.velocity.Y), true);
+
+            if (!player.wet)
+                Lighting.AddLight(position, (float)(0.5 * (double)Main.demonTorch + 1.0 * (1.0 - (double)Main.demonTorch)), 0.3f, (float)(1.0 * (double)Main.demonTorch + 0.5 * (1.0 - (double)Main.demonTorch)));
         }
 
         public override void AutoLightSelect(ref bool dryTorch, ref bool wetTorch, ref bool glowstick)

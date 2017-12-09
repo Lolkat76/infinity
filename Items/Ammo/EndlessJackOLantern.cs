@@ -28,7 +28,7 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.JackOLantern, 3996);
+			recipe.AddIngredient(ItemID.ExplosiveJackOLantern, 3996);
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
