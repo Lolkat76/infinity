@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("CrystalPiercer"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("CrystalPiercer"), 500);
                 recipe.AddTile(TileID.MythrilAnvil);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

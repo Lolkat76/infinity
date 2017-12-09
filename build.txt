@@ -1,4 +1,4 @@
 author = Lolkat & DragonHunter003
-version = 17.0
+version = 17.1
 displayName = Infinity - Endless Items
 homepage = http://forums.terraria.org/index.php?threads/infinity.40789/

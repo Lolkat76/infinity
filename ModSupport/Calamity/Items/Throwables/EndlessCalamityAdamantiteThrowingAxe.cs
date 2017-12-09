@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("AdamantiteThrowingAxe"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("AdamantiteThrowingAxe"), 999);
                 recipe.AddTile(TileID.MythrilAnvil);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

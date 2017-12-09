@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Calamity.Items.Ammo
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("FlashBullet"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("FlashBullet"), 999);
                 recipe.AddTile(TileID.Anvils);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
