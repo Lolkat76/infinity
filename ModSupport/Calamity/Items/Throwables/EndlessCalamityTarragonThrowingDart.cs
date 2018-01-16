@@ -10,7 +10,6 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Tarragon Throwing Dart");
-            //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
         public override void SetDefaults()

@@ -10,7 +10,6 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Orichalcum Spiked Gemstone");
-            //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
         public override void SetDefaults()

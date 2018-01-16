@@ -10,7 +10,6 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Cobalt Kunai");
-            //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
         public override void SetDefaults()

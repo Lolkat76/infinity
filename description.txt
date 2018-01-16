@@ -1,6 +1,9 @@
 Adds in endless items.
 These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
 Changelog:
+(17.1.1)
+-Minor internal changes
+
 (17.1)
 -Rebalanced several recipes
 

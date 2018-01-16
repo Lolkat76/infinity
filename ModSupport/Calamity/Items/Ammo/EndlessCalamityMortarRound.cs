@@ -10,7 +10,6 @@ namespace Infinity.ModSupport.Calamity.Items.Ammo
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Endless Mortar Round");
-            //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
         public override void SetDefaults()

@@ -11,7 +11,6 @@ namespace Infinity.ModSupport.Calamity.Items.Potions
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Bottomless Supreme Healing Potion");
-            //Tooltip.SetDefault("Provides infinite Holy Fire Bullets");
         }
 
         public override void SetDefaults()
