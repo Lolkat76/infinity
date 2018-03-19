@@ -19,6 +19,7 @@ namespace Infinity.ModSupport.Thorium.Potions
             {
                 item.CloneDefaults(otherMod.ItemType("ExplosiveCoatingItem"));
                 item.consumable = false;
+                item.buffType = otherMod.BuffType("ExplosionCoating");
                 item.buffTime = 216000;
                 item.maxStack = 1;
             }

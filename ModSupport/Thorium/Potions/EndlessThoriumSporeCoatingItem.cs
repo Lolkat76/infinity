@@ -18,6 +18,7 @@ namespace Infinity.ModSupport.Thorium.Potions
             if (otherMod != null)
             {
                 item.CloneDefaults(otherMod.ItemType("SporeCoatingItem"));
+                item.buffType = otherMod.BuffType("SporeCoating");
                 item.consumable = false;
                 item.buffTime = 216000;
                 item.maxStack = 1;

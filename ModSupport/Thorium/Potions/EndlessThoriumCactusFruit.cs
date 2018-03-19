@@ -19,6 +19,7 @@ namespace Infinity.ModSupport.Thorium.Potions
             {
                 item.CloneDefaults(otherMod.ItemType("CactusFruit"));
                 item.consumable = false;
+                item.buffType = otherMod.BuffType("Whoa");
                 item.buffTime = 216000;
                 item.maxStack = 1;
             }

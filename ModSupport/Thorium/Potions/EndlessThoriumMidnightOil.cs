@@ -19,6 +19,7 @@ namespace Infinity.ModSupport.Thorium.Potions
             if (otherMod != null)
             {
                 item.CloneDefaults(otherMod.ItemType("MidnightOil"));
+                item.buffType = otherMod.BuffType("MidnightOil");
                 item.consumable = false;
                 item.buffTime = 216000;
                 item.maxStack = 1;
