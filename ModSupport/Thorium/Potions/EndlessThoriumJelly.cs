@@ -21,7 +21,7 @@ namespace Infinity.ModSupport.Thorium.Potions
                 item.CloneDefaults(otherMod.ItemType("Jelly"));
                 item.buffType = otherMod.BuffType("TastyJelly");
                 item.consumable = false;
-                item.buffTime = 216000;
+                item.buffTime = 3600;
                 item.maxStack = 1;
             }
         }

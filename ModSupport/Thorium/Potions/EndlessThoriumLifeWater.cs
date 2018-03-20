@@ -21,7 +21,7 @@ namespace Infinity.ModSupport.Thorium.Potions
                 item.CloneDefaults(otherMod.ItemType("LifeWater"));
                 item.buffType = otherMod.BuffType("LifeWaterRegen");
                 item.consumable = false;
-                item.buffTime = 216000;
+                item.buffTime = 7200;
                 item.maxStack = 1;
             }
         }
