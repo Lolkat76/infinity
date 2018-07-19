@@ -27,7 +27,7 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("XerocPitchfork"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("XerocPitchfork"), 499);
                 recipe.AddTile(TileID.LunarCraftingStation);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

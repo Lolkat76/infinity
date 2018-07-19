@@ -33,7 +33,7 @@ namespace Infinity.Items.Throwables
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.UnholyWater, 999);
+            recipe.AddIngredient(ItemID.UnholyWater, 120);
             recipe.AddTile(TileID.TinkerersWorkbench);
             recipe.SetResult(this);
             recipe.AddRecipe();

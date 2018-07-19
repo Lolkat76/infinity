@@ -67,7 +67,7 @@ namespace Infinity.Items.Placeables
         public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.PurpleTorch, 999);
+			recipe.AddIngredient(ItemID.PurpleTorch, 99);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

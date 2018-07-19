@@ -20,7 +20,7 @@ namespace Infinity.ModSupport.Thorium.Potions
                 item.CloneDefaults(otherMod.ItemType("FrostHeartPotion"));
                 item.buffType = otherMod.BuffType("FrostHeart");
                 item.consumable = false;
-                item.buffTime = 216000;
+                item.buffTime = 2160;
                 item.maxStack = 1;
             }
         }

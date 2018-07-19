@@ -34,7 +34,7 @@ namespace Infinity.Items.Throwables
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.FrostDaggerfish, 999);
+            recipe.AddIngredient(ItemID.FrostDaggerfish, 120);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();

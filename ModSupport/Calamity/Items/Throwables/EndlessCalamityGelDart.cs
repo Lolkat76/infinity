@@ -27,7 +27,7 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("GelDart"), 1998);
+                recipe.AddIngredient(otherMod.ItemType("GelDart"), 750);
                 recipe.AddTile(TileID.Anvils);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

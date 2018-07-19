@@ -29,7 +29,7 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Flare, 3996);
+			recipe.AddIngredient(ItemID.Flare, 999);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

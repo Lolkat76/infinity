@@ -40,7 +40,7 @@ namespace Infinity.Items.Throwables
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Bomb, 999);
-			recipe.AddTile(TileID.CrystalBall);
+			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

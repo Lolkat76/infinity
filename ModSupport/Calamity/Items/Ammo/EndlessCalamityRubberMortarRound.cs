@@ -27,7 +27,7 @@ namespace Infinity.ModSupport.Calamity.Items.Ammo
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("RubberMortarRound"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("RubberMortarRound"), 1998);
                 recipe.AddTile(TileID.LunarCraftingStation);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

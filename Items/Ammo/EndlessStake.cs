@@ -29,7 +29,7 @@ namespace Infinity.Items.Ammo
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Stake, 3996);
+			recipe.AddIngredient(ItemID.Stake, 999);
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

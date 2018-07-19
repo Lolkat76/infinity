@@ -29,7 +29,7 @@ namespace Infinity.ModSupport.Calamity.Items.Ammo
             {
                 ModRecipe recipe = new ModRecipe(mod);
                 recipe.AddIngredient(otherMod.ItemType("VeriumBullet"), 3996);
-                recipe.AddTile(TileID.LunarCraftingStation);
+                recipe.AddTile(TileID.MythrilAnvil);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
             }

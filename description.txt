@@ -1,6 +1,16 @@
 Adds in endless items.
 These items act similar to the Endless Musket Pouch / Quiver and some, such as the throwables, are the same but do not consume themselves.
 Changelog:
+
+(18.2)
+-Balancing wave of vanilla and Calamity items (Sprite updates coming soon)
+
+(18.1)
+-Fixed Thorium potions not working correctly
+
+(18.0)
+-Added Thorium Items
+
 (17.1.1)
 -Minor internal changes
 

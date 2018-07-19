@@ -39,7 +39,7 @@ namespace Infinity.Items.Throwables
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.RottenEgg, 999);
+			recipe.AddIngredient(ItemID.RottenEgg, 240);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();

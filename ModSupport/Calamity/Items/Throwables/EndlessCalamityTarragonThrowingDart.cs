@@ -27,7 +27,7 @@ namespace Infinity.ModSupport.Calamity.Items.Throwables
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("TarragonThrowingDart"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("TarragonThrowingDart"), 1499);
                 recipe.AddTile(TileID.LunarCraftingStation);
                 recipe.SetResult(this);
                 recipe.AddRecipe();

@@ -35,7 +35,7 @@ namespace Infinity.Items.Ammo
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.FrostburnArrow, 3996);
-			recipe.AddTile(TileID.TinkerersWorkbench);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 1);
 			recipe.AddRecipe();
 		}

@@ -28,7 +28,7 @@ namespace Infinity.ModSupport.Calamity.Items.Ammo
             if (otherMod != null)
             {
                 ModRecipe recipe = new ModRecipe(mod);
-                recipe.AddIngredient(otherMod.ItemType("VanquisherArrow"), 3996);
+                recipe.AddIngredient(otherMod.ItemType("VanquisherArrow"), 2997);
                 recipe.AddTile(TileID.LunarCraftingStation);
                 recipe.SetResult(this);
                 recipe.AddRecipe();
