@@ -11,7 +11,7 @@ namespace Infinity.Items.Throwables
 		public override void SetDefaults()
 		{
 			item.name = "Endless Molotov Cocktail";
-			item.damage = 27;
+			item.damage = 23;
 			item.thrown = true;
 			item.width = 22;
 			item.height = 22;
