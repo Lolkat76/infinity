@@ -1,4 +1,4 @@
 author = Lolkat & DragonHunter003
-version = 19.0
+version = 19.1
 displayName = Infinity - Endless Items
 homepage = https://discord.gg/JZYtkW9

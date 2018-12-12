@@ -28,7 +28,7 @@ namespace Infinity.Items.BuffPotions.Combos
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "EndlessAmmoreservationPotion", 1);
+			recipe.AddIngredient(null, "EndlessAmmoReservationPotion", 1);
             recipe.AddIngredient(null, "EndlessArcheryPotion", 1);
             recipe.AddIngredient(null, "EndlessMagicPowerPotion", 1);
             recipe.AddIngredient(null, "EndlessRagePotion", 1);
