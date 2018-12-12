@@ -85,6 +85,10 @@
     <Compile Include="Items\Ammo\EndlessUnholyArrow.cs" />
     <Compile Include="Items\Ammo\EndlessVenomArrow.cs" />
     <Compile Include="Items\Ammo\EndlessVenomBullet.cs" />
+    <Compile Include="Items\BuffPotions\Combos\SupportComboPotion.cs" />
+    <Compile Include="Items\BuffPotions\Combos\OffenseComboPotion.cs" />
+    <Compile Include="Items\BuffPotions\Combos\FishingComboPotion.cs" />
+    <Compile Include="Items\BuffPotions\Combos\DefenseComboPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessAmmoReservationPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessArcheryPotion.cs" />
     <Compile Include="Items\BuffPotions\EndlessBattlePotion.cs" />

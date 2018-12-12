@@ -18,7 +18,8 @@ namespace Infinity.ModSupport.Thorium.Throwables
             {
                 item.CloneDefaults(otherMod.ItemType("ThePill"));
                 item.consumable = false;               
-                item.maxStack = 1;
+                item.maxStack = 1;               
+                
             }
         }
 

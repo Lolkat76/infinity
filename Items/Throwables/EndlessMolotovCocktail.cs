@@ -17,7 +17,7 @@ namespace Infinity.Items.Throwables
 
         public override void SetDefaults()
 		{
-			item.damage = 27;
+			item.damage = 24;
 			item.thrown = true;
 			item.width = 22;
 			item.height = 22;

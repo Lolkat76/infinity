@@ -54,7 +54,7 @@ namespace Infinity.Items.Other
                     float num26 = num24 - 2f - (float)(2.0 - (double)scale / 5.0 * 2.0);
                     float X = num25 - 10f * scale;
                     float Y = num26 - 10f * scale;
-                    float num28 = 1f;
+                    float num28 = Main.UIScale;
                     float num27 = (float)((double)X + 4.0 - 14.0 * (double)num28);
                     float num29 = (float)((double)Y + 2.0 - 14.0 * (double)num28);
                     float num30 = num27 + 28f * num28;
